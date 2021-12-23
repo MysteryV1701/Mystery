@@ -1,0 +1,108 @@
+/* Promotion */
+.promotion-plus{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.promotion i{ 
+    font-size: 15rem;
+    color: var(--color-primary);
+}
+.promotion-plus p{
+    font-size: 1.8rem;
+    letter-spacing: .05rem;
+    color: var(--color-primary);
+}
+.edit-btn{
+    display: flex;
+    flex-direction: column;
+}
+.edit-btn .btn:first-child{
+    margin-bottom: 1rem;
+}
+
+
+/* Turnover */
+.chart{
+    width: 70% ;
+    height: auto;
+}
+.turnover-status{
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 3rem;
+    margin-left: 25rem;
+}
+.account-wrapper{
+    padding: 2rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+
+.account-management{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.account-heading{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    border-bottom:  1px solid var(--color-third);
+}
+.account-heading div:first-child,
+.account-management p:first-child{
+    width: 15%;
+}
+.account-heading div:nth-child(2),
+.account-management p:nth-child(2){
+    width: 20%;
+}
+.account-heading div:nth-child(3),
+.account-management p:nth-child(3){
+    width: 30%;
+}
+.account-management p:nth-child(4){
+    width: 20%;
+}
+.account-management .account-btn{
+    display: flex;
+    flex-direction: column;
+}
+.account-btn .btn{
+    margin: .3rem;
+}
+
+/*  */
+.order-filter form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.order-wrapper{
+    background-color: #fff;
+    margin: 1rem 0;
+}
+.order-wrapper table tr{
+    padding: 1rem;
+    border-bottom:1px solid var(--color-third) ;
+    margin: 1rem;
+}
+table tr th,
+table tr td{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+}
+table tr th:first-child,
+table tr td:first-child{
+    width: 12%;
+}

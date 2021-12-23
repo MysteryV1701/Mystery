@@ -1,0 +1,385 @@
+{
+    "status": "success",
+    "items": [
+        {
+            "id": 51,
+            "image": "../../img/c_components/51_ Asus ROG Ti-O12G-GAMING.png",
+            "title": "Card màn hình Asus ROG STRIX-RTX 3080 Ti-O12G-GAMING",
+            "price1": 51509000,
+            "sale_off": 7,
+            "price": 47999000,
+            "info": {
+                "species": "Card đồ họa VGA",
+                "producer": "Asus",
+                "model": "ROG STRIX-RTX 3080 Ti-O12G-GAMING",
+                "enginegraphic": "NVIDIA® RTX 3080 Ti™",
+                "bus":  "PCI Express 4.0 x 16",
+                "memoryclock": "19 Gbps",
+                "memory": "12GB GDDR6X",
+                "busmemory": "384-bit"
+            },
+            "quantily": 5
+        },
+        {
+            "id": 52,
+            "image": "../../img/c_components/52_Asus TUF Ti-O12G-GAMING.png",
+            "title": "Card màn hình Asus ROG STRIX-RTX 3080 Ti-O12G-GAMING",
+            "price1": 47469000,
+            "sale_off": 1,
+            "price": 46999000,
+            "info": {
+                "species": "Card đồ họa VGA",
+                "producer": "Asus",
+                "model": "TUF RTX 3080 Ti-O12G-GAMING",
+                "enginegraphic": "NVIDIA® RTX 3080 Ti™",
+                "bus":  "PCI Express 4.0 x 16",
+                "memoryclock": "19 Gbps",
+                "memory": "12GB GDDR6X",
+                "busmemory": "384-bit"
+            },
+            "quantily": 3
+        },
+        {
+            "id": 53,
+            "image": "../../img/c_components/53_Asus TRX40-PRO.png",
+            "title": "Mainboard ASUS PRIME TRX40-PRO (AMD TRX40 ,Socket sTRX4, ATX, 8 khe RAM DDR4)",
+            "price1": 12629000,
+            "sale_off": 12,
+            "price": 11109000,
+            "info": {
+                "species": "Mainboard",
+                "producer": "Asus",
+                "model": "ASUS PRIME TRX40-PRO",
+                "cpu": "AMD Socket sTRX4 for 3rd Gen AMD Ryzen™ Threadripper™ Series Desktop Processors Refer to www.asus.com for CPU support list",
+                "chipset":  "Build in AMD TRX40",
+                "memory": "8 x DIMM, Max. 256GB, DDR4 3200/2933/2800/2666/2400/2133 MHz ECC and non-ECC, Un-buffered Memory",
+                "multiGPUsupport": "Supports AMD 2-Way CrossFireX Technology"
+            },
+            "quantily": 8
+        },
+        {
+            "id": 54,
+            "image": "../../img/c_components/54_Asus TUF B450-PRO.png",
+            "title": "Mainboard ASUS TUF B450-PRO GAMING (AMD B450, Socket AM4, ATX, 4 khe RAM DDR4)",
+            "price1": 2629000,
+            "sale_off": 8,
+            "price": 2429000,
+            "info": {
+                "species": "Mainboard",
+                "producer": "Asus",
+                "model": "TUF B450-PRO GAMING ",
+                "cpu": "AMD",
+                "chipset":  "B450",
+                "harddrive": "2 x M.2 NVM.e, 6 x SATA 6Gb/s connectors",
+                "backpanel": " P/S2, DVI, HDMI, USB Type C, 6 USB Type A, LAN, Audio 3.5mm"
+            },
+            "quantily": 14
+        },
+        {
+            "id": 55,
+            "image": "../../img/c_components/55_MSI MEG Z590.png",
+            "title": "Mainboard MSI MEG Z590 GODLIKE",
+            "price1": 29799000,
+            "sale_off": 23,
+            "price": 22999000,
+            "info": {
+                "species": "Mainboard",
+                "producer": "Asus",
+                "model": "TUF B450-PRO GAMING ",
+                "cpu": "Intel",
+                "chipset":  "Z590",
+                "harddrive": "6x SATA 6Gb/s ports (From Z590 chipset), 4x M.2 slots (Key M)",
+                "RAMsupports": "4x DDR4 memory slots, support up to 128GB, Supports 1R 2133/ 2666/ 2933 MHz for 10th Gen Intel® CPU (by JEDEC & POR), Supports 1R 2133/ 2666/ 2933/ 3200 MHz for 11th Gen Intel® CPU (by JEDEC & POR),..."
+            },
+            "quantily": 9
+        },
+        {
+            "id": 56,
+            "image": "../../img/c_components/56_ ARESZE EPS600ELA.png",
+            "title": "Nguồn ARESZE EPS600ELA (80 Plus /Màu Đen)",
+            "price1": 2079000,
+            "sale_off": 8,
+            "price": 1919000,
+            "info": {
+                "species": "Nguồn",
+                "model": "EPS450ELA(85 Plus)",
+                "size": "50*85*160mm",
+                "inputvoltage ":  "103~264V (dải tự động)",
+                "wattage": "600W",
+                "retentiontime ": "> 17ms",
+                "efficiency ": ">80%",
+                "safetystandards": "CE/ FCC/ UL/ TUV/ C-Tick / GOST/BSMI/ CCC/ KCC"
+            },
+            "quantily": 10
+        },
+        {
+            "id": 57,
+            "image": "../../img/c_components/57_Asus SDRW-08D2S-U Ext USB.png",
+            "title": "Ổ Quang DVD Rewrite Asus SDRW-08D2S-U Ext USB",
+            "price1": 899000,
+            "sale_off": 17,
+            "price": 749000,         
+            "info": {
+                "species": "Ổ quang",
+                "producer": "ASUS",
+                "model": "EPS450ELA(85 Plus)",
+                "readrate": "DVD + R: 8X, DVD-R: 8X, DVD + RW: 8X, DVD-RW: 8X, DVD-ROM: 8X , DVD + R (DL): 8X, DVD-R (DL): 8X ,DVD-ROM (DL): 8X, DVD-RAM: 5x , CD-R: 24X, CD-RW: 24X ,CD-ROM: 24X, DVD Video Playback: 4X, VCD Phát lại: 10X",
+                "recordingspeed":  "DVD + R: 8X, DVD-R: 8X, DVD + RW: 8X, DVD-RW: 6X, DVD + R (DL): 6X, DVD-R (DL): 6X, DVD-RAM: 5x, CD-R: 24X, CD-RW: 16X",
+                "usb": "USB 2.0",
+                "use": "PC/laptop",
+                "size": "157 x 142 x 21 cm (DxRxC)",
+                "integratedtechnology ": "Disc Encryption tăng gấp đôi sự bảo mật bằng mật khẩu điều khiển và chức năng ẩn tập tin. Thiết kế thẩm mỹ, công nghệ vượt trội "
+            },
+            "quantily": 23
+        },
+        {
+            "id": 58,
+            "image": "../../img/c_components/58_ HDD WD 1TB Black.png",
+            "title": "Ổ cứng HDD WD 1TB Black 3.5 inch 7200RPM, SATA, 64MB Cache (WD1003FZEX)",
+            "price1": 2399000,
+            "sale_off": 19,
+            "price": 1409000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western Digital",
+                "model": "Caviar Black 1TB",
+                "capacity ": "1TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "7200rpm",
+                "recordingspeed": "3 Gbps"
+            },
+            "quantily": 16
+        },
+        {
+            "id": 59,
+            "image": "../../img/c_components/59_ HDD WD 1TB Red.png",
+            "title": "Ổ cứng HDD WD 1TB Red 3.5 inch, 5400RPM, SATA, 64MB Cache (WD10EFRX)",
+            "price1": 1799000,
+            "sale_off": 22,
+            "price": 1409000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western Digital",
+                "model": "WD10EFRX",
+                "capacity ": "1TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "5400rpm",
+                "recordingspeed": "6 Gb/s"
+            },
+            "quantily": 11
+        },
+        {
+            "id": 60,
+            "image": "../../img/c_components/60_HDD WD 2TB Red.png",
+            "title": "Ổ cứng HDD WD 2TB Red 3.5 inch, 5400RPM, SATA, 256MB Cache ",
+            "price1": 2399000,
+            "sale_off": 17,
+            "price": 1999000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western Digital",
+                "model": "WD10EFRX",
+                "capacity ": "2TB",
+                "usb":  "SATA 3",
+                "caching": "256MB cache",
+                "speedrotation": "5400rpm",
+                "recordingspeed": "6Gb/s"
+            },
+            "quantily": 11
+        },
+        {
+            "id": 61,
+            "image": "../../img/c_components/61_HDD Seagate Barracuda 1TB.png",
+            "title": "Ổ cứng HDD Seagate Barracuda 1TB 3.5 inch 7200RPM, SATA, 64MB Cache (ST1000DM010)",
+            "price1": 1199000,
+            "sale_off": 23,
+            "price": 929000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Seagate",
+                "model": "Seagate Barracuda",
+                "capacity ": "1TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "7200rpm",
+                "recordingspeed": "6Gb/s"
+            },
+            "quantily": 18
+        },
+        {
+            "id": 62,
+            "image": "../../img/c_components/62_ HDD Seagate Barracuda 4TB.png",
+            "title": "Ổ cứng HDD Seagate Barracuda 4TB 3.5 inch 5400RPM, SATA, 256MB Cache (ST4000DM004)",
+            "price1": 2899000,
+            "sale_off": 15,
+            "price": 2469000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Seagate",
+                "model": "Seagate Barracuda",
+                "capacity ": "4TB",
+                "usb":  "SATA 3",
+                "caching": "256MB cache",
+                "speedrotation": "5400rpm",
+                "recordingspeed": "6Gb/s"
+            },
+            "quantily": 13
+        },
+        {
+            "id": 63,
+            "image": "../../img/c_components/63_ FSP Power Supply AX .png",
+            "title": "Nguồn FSP Power Supply AX Series AX400ATX &nbsp;Active PFC (Màu Đen/Không kèm dây nguồn)",
+            "price1": 709000,
+            "sale_off": 21,
+            "price": 559000,
+            "info": {
+                "species": "Nguồn",
+                "model": "AX400ATX - Active PFC",
+                "type": "ATX",
+                "PFC":  "Active PFC",
+                "inputvoltage": "100V-240V",
+                "inputcurent": "4-8A",
+                "inputfrequency": "50-60Hz",
+                "outputcapacity": "350W",
+                "maxpower": "400W"
+            },
+            "quantily": 25
+        },
+        {
+            "id": 64,
+            "image": "../../img/c_components/64_ FSP Power Supply HYN450ATX.png",
+            "title": "Nguồn FSP Power Supply HYN Series HYN450ATX Active PFC (Màu Đen)",
+            "price1": 779000,
+            "sale_off": 10,
+            "price": 699000,
+            "info": {
+                "species": "Nguồn",
+                "model": "HYN450",
+                "type": "ATX",
+                "PFC":  "Active PFC",
+                "inputvoltage": "200V-240V",
+                "inputcurent": "5A",
+                "inputfrequency": "50-60Hz",
+                "outputcapacity": "400W",
+                "maxpower": "450W"
+            },
+            "quantily": 16
+        },
+        {
+            "id": 65,
+            "image": "../../img/c_components/65_ FSP Power Supply HYN550ATX.png",
+            "title": "Nguồn FSP Power Supply HYN Series HYN550ATX &nbsp;Active PFC (Màu Đen)",
+            "price1": 1179000,
+            "sale_off": 24,
+            "price": 899000,
+            "info": {
+                "species": "Nguồn",
+                "model": "HYN450",
+                "type": "ATX",
+                "PFC":  "Active PFC",
+                "inputvoltage": "200V-240V",
+                "inputcurent": "5A",
+                "inputfrequency": "50-60Hz",
+                "outputcapacity": "500W",
+                "maxpower": "550W"
+            },
+            "quantily": 7
+        },
+        {
+            "id": 66,
+            "image": "../../img/c_components/66_ FSP Power Supply HYDRO HD600.png",
+            "title": "Nguồn FSP Power Supply HYDRO Series Model HD600  Active PFC (80 Plus  Bronze/Màu Đen)",
+            "price1": 1619000,
+            "sale_off": 6,
+            "price": 1519000,
+            "info": {
+                "species": "Nguồn",
+                "model": "HYN450",
+                "type": "ATX",
+                "PFC":  "Active PFC",
+                "inputvoltage": "200V-240V",
+                "inputcurent": "5A",
+                "inputfrequency": "50-60Hz",
+                "outputcapacity": "500W",
+                "maxpower": "550W"
+            },
+            "quantily": 4
+        },
+        {
+            "id": 67,
+            "image": "../../img/c_components/67_ HDD WD 2TB Blue.png",
+            "title": "Ổ cứng HDD WD 2TB Blue 3.5 inch, 5400RPM, SATA, 256MB Cache (WD20EZAZ)",
+            "price1": 1619000,
+            "sale_off": 18,
+            "price": 1399000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western Digital",
+                "capacity ": "2TB",
+                "usb":  "SATA 3",
+                "caching": "256MB cache",
+                "speedrotation": "5400rpm",
+                "recordingspeed": "3 Gbps"
+            },
+            "quantily": 19
+        },
+        {
+            "id": 68,
+            "image": "../../img/c_components/68_HDD WD 2TB Black.png",
+            "title": "Ổ cứng HDD WD 2TB Black 3.5 inch, 7200RPM, SATA, 64MB Cache (WD2003FZEX) ",
+            "price1": 3599000,
+            "sale_off": 8,
+            "price": 3299000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western Digital ",
+                "capacity ": "2TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "7200rpm",
+                "recordingspeed": "3Gb/s"
+            },
+            "quantily": 21
+        },
+        {
+            "id": 69,
+            "image": "../../img/c_components/69_ HDD WD 4TB Black.png",
+            "title": "Ổ cứng HDD WD 4TB Black 3.5 inch, 7200RPM, SATA, 256MB Cache (WD4005FZBX)",
+            "price1": 5499000,
+            "sale_off": 11,
+            "price": 4899000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Western",
+                "model": "Black WD4005FZBX",
+                "capacity ": "4TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "7200rpm"
+            },
+            "quantily": 17
+        },
+        {
+            "id": 70,
+            "image": "../../img/c_components/70_ HDD Seagate SkyHawk 2TB.png",
+            "title": "Ổ cứng HDD Seagate SkyHawk 2TB 3.5 inch, 5900RPM, SATA, 64MB Cache (ST2000VX008)",
+            "price1": 1999000,
+            "sale_off": 22,
+            "price": 1559000,
+            "info": {
+                "species": "Ổ cứng",
+                "producer": "Seagate",
+                "model": "Seagate SkyHawk",
+                "capacity ": "2TB",
+                "usb":  "SATA 3",
+                "caching": "64MB cache",
+                "speedrotation": "5900rpm",
+                "recordingspeed": "6Gb/s"
+            },
+            "quantily": 5
+        }
+
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "status": "success",
+    "items": [
+        {
+            "id": 201,
+            "image": "../../img/PC/201_Lenovo-IdeaCentre-510-15ICB.png",
+            "title": "PC Lenovo IdeaCentre 510-15ICB (i3 8100/4GB RAM/1TB ",
+            "price1": 9699000,
+            "sale_off": 12,
+            "price": 8499000,
+            "info": {
+                "producer": "Lenovo",
+                "generic": "IdeaCenter 510-15ICB",
+                "cpu": "Core i3-8100",
+                "chipset": "Intel B360",
+                "ram": "4GB DDR4 (2 slot)",
+                "vga": "VGA onboard, Intel HD Graphics",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 7
+        },
+        {
+            "id": 202,
+            "image": "../../img/PC/202_ DELL-VOSTRO-3681 SFF.png",
+            "title": "PC DELL VOSTRO 3681 SFF (I5-10400/4GB RAM/1TB HDD/WL+BT/K+M/WIN 10)",
+            "price1": 12629000,
+            "sale_off": 12,
+            "price": 12189000,
+            "info": {
+                "producer": "Dell",
+                "generic": "Vostro 3681",
+                "cpu": "Core i5-10400",
+                "chipset": "Intel® B460",
+                "ram": "4GB DDR4 2666Mhz)",
+                "vga": "VGA onboard, Intel HD Graphics",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 9
+        },
+        {
+            "id": 203,
+            "image": "../../img/PC/203_ LENOVO-V50S.png",
+            "title": "PC LENOVO V50S (I3-10100/4GB RAM/1TB HDD/DVDRW/WL+BT/K+M/NO OS) (11HB004RVA)",
+            "price1": 8789000,
+            "sale_off": 3,
+            "price": 8649000,
+            "info": {
+                "producer": "Lenovo",
+                "generic": "V50s 07IMB",
+                "cpu": "Intel® Core™ i3-10100",
+                "chipset": "Intel B460",
+                "ram": "4GB DIMM DDR4-2666",
+                "vga": "Integrated Intel UHD Graphics 630",
+                "diskdrive": "1TB HDD 7200rpm 3.5"
+            },
+            "quantily": 12
+        },
+        {
+            "id": 204,
+            "image": "../../img/PC/204_ DELL-OPTIPLEX-3080-MT.png",
+            "title": "PC DELL OPTIPLEX 3080 MT (I5-10500/8GB RAM/1TB HDD/DVDRW/K+M/FEDORA)",
+            "price1": 14199000,
+            "sale_off": 2,
+            "price": 13899000,
+            "info": {
+                "producer": "Lenovo",
+                "generic": "IdeaCenter 510-15ICB",
+                "cpu": "Core i5-10500",
+                "chipset": "Intel B360",
+                "ram": "8GB",
+                "vga": "VGA onboard, Intel HD Graphics",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 5
+        },
+        {
+            "id": 205,
+            "image": "../../img/PC/205_ HP-280-PRO-G5-SFF.png",
+            "title": "PC HP 280 PRO G5 SFF (I3-10100/4GB RAM/1TB HDD/DVDRW/WL+BT/K+M/WIN",
+            "price1": 9299000,
+            "sale_off": 3,
+            "price": 9099000,
+            "info": {
+                "producer": "HP",
+                "generic": "280 Pro G5",
+                "cpu": "Core i3-10100",
+                "chipset": "Intel® B460",
+                "ram": "4GB DDR4 2666Mhz",
+                "vga": "Intel® UHD Graphics 630",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 11
+        },
+        {
+            "id": 206,
+            "image": "../../img/PC/206_ HP-PRODESK-400-G7-MT.png",
+            "title": "PC HP PRODESK 400 G7 MT (I7-10700/8GB RAM/256GB SSD/WL+BT/K+M/WIN 10)",
+            "price1": 17269000,
+            "sale_off": 2,
+            "price": 16849000,
+            "info": {
+                "producer": "HP",
+                "generic": "Prodesk 400 G7 MT",
+                "cpu": "Core i7-10700",
+                "chipset": "Intel® Q470",
+                "ram": "8GB DDR4 2666Mhz",
+                "vga": "Intel® UHD Graphics 630",
+                "diskdrive": "256GB SSD"
+            },
+            "quantily": 14
+        },
+        {
+            "id": 207,
+            "image": "../../img/PC/207_ DELL-OPTIPLEX-3080-SFF.png",
+            "title": "PC DELL OPTIPLEX 3080 SFF (I3-10100/4GB RAM/1TB HDD/DVDRW/K+M/FEDORA)",
+            "price1": 9689000,
+            "sale_off": 1,
+            "price": 9599000,
+            "info": {
+                "producer": "Dell",
+                "generic": "Optiplex 3080",
+                "cpu": "Core i3-10100",
+                "ram": "4GB DDR4 (2 slot)",
+                "vga": "Onboard",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 13
+        },
+        {
+            "id": 208,
+            "image": "../../img/PC/208_ ASUS-ALL-IN-ONE E5402WH.png",
+            "title": "PC ASUS ALL IN ONE E5402WH (I5-11500B/8GB RAM/512GB SSD/23.8 INCH FULL",
+            "price1": 22999000,
+            "sale_off": 1,
+            "price": 22799000,
+            "info": {
+                "producer": "Asus",
+                "generic": "E5402WH",
+                "cpu": "Intel Core i5-11500B",
+                "ram": "8GB",
+                "vga": "VGA onboard, Intel HD Graphics",
+                "diskdrive": "512Gb SSD"
+            },
+            "quantily": 21
+        },
+        {
+            "id": 209,
+            "image": "../../img/PC/209_ ASUS-D500SC.png",
+            "title": "PC ASUS D500SC (I3-10105/4GB RAM/256GB SSD/WL+BT/K+M/NO OS) (D500SC-3101050600)",
+            "price1": 9999000,
+            "sale_off": 10,
+            "price": 8999000,
+            "info": {
+                "producer": "Asus",
+                "generic": "D500SC",
+                "cpu": "Core™ i3-10105",
+                "chipset": "Intel® B560",
+                "ram": "4GB DDR4 U-DIMM",
+                "vga": " onboard",
+                "diskdrive": "256GB M.2 NVMe™ PCIe® 3.0 SSD"
+            },
+            "quantily": 14
+        },
+        {
+            "id": 210,
+            "image": "../../img/PC/210_ ASUS-ALL-IN-ONE-V241E.png",
+            "title": "PC ASUS ALL IN ONE V241E (I3-1115G4/8GB RAM/512GB SSD/23.8 INCH FULL",
+            "price1": 17979000,
+            "sale_off": 3,
+            "price": 17449000,
+            "info": {
+                "producer": "Asus",
+                "generic": "ALL IN ONE V241E",
+                "cpu": "Intel Core i3-1115G4",
+                "ram": "8GB",
+                "vga": "Onboard",
+                "diskdrive": "512GB SSD"
+            },
+            "quantily": 1
+        },
+        {
+            "id": 211,
+            "image": "../../img/PC/211_ HACOM-BUSINESS-H11.png",
+            "title": "PC HACOM BUSINESS H11 (3000G/A320/8GB RAM/120GB SSD)",
+            "price1": 6399000,
+            "sale_off": 25,
+            "price": 4799000,
+            "info": {
+                "producer": "HACOM",
+                "generic": "BUSINESS H11",
+                "cpu": "AMD Athlon 3000G",
+                "chipset": "Radeon ™ Vega 3",
+                "ram": "8Gb (1x8GB DRR4 Bus 2666Mhz)",
+                "vga": "Onboard",
+                "diskdrive": "120GB SSD"
+            },
+            "quantily": 18
+        },
+        {
+            "id": 212,
+            "image": "../../img/PC/212_ HP-PRODESK-400-G7-MT.png",
+            "title": "PC HP PRODESK 400 G7 MT (I7-10700/8GB RAM/512GB SSD/DVDRW/WL+BT/K+M/WIN",
+            "price1": 18079000,
+            "sale_off": 2,
+            "price": 17779000,
+            "info": {
+                "producer": "HP",
+                "generic": "Prodesk 400 G7 MT",
+                "cpu": "Core i7-10700",
+                "chipset": "Intel® Q470",
+                "ram": "8GB DDR4 2666Mhz",
+                "vga": "Intel® UHD Graphics 630",
+                "diskdrive": "512GB SSD"
+            },
+            "quantily": 13
+        },
+        {
+            "id": 213,
+            "image": "../../img/PC/213_ DELL-VOSTRO-3888-MT.png",
+            "title": "PC DELL VOSTRO 3888 MT (I3-10100/4GB RAM/1TB HDD/WL+BT/K+M/WIN 10)",
+            "price1": 9999000,
+            "sale_off": 5,
+            "price": 9489000,
+            "info": {
+                "producer": "DELL",
+                "generic": "IdeaCenter 510-15ICB",
+                "cpu": "Core i3-10100",
+                "chipset": "Intel® B460",
+                "ram": "4GB",
+                "vga": "Onboard",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 17
+        },
+        {
+            "id": 214,
+            "image": "../../img/PC/214_ DELL-VOSTRO-7.3888 MT.png",
+            "title": "PC DELL VOSTRO 3888 MT (I5-10400/4GB RAM/1TB HDD/WL+BT/K+M/WIN10)",
+            "price1": 12579000,
+            "sale_off": 6,
+            "price": 11869000,
+            "info": {
+                "producer": "DELL",
+                "generic": "Vostro 3888",
+                "cpu": "Core i5-10400",
+                "chipset": "Intel *B460",
+                "ram": "4GB DDR4 2666Mhz",
+                "vga": "onboard",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 18
+        },
+        {
+            "id": 215,
+            "image": "../../img/PC/215_ HP-ALL-IN-ONE-24-DF0039D.png",
+            "title": "PC HP ALL IN ONE 24-DF0039D (I3-10100T/4GB RAM/512GB SSD/23.8 INCH",
+            "price1": 18679000,
+            "sale_off": 7,
+            "price": 17379000,
+            "info": {
+                "producer": "HP",
+                "generic": "All-in-One 24-df0039d",
+                "cpu": "Intel® Core™ i3-10100T",
+                "ram": "4 GB DDR4-2666 SDRAM (1 x 4 GB)",
+                "vga": "Intel® UHD Graphics",
+                "diskdrive": "512GB SSD"
+            },
+            "quantily": 8
+        },
+        {
+            "id": 216,
+            "image": "../../img/PC/216_ DELL-OPTIPLEX-3080-TOWER.png",
+            "title": "PC DELL OPTIPLEX 3080 TOWER (I3-10100/4GB RAM/1TB HDD/DVDRW/K+M/FEDORA)",
+            "price1": 10309000,
+            "sale_off": 10,
+            "price": 9299000,
+            "info": {
+                "producer": "DELL",
+                "generic": "OPTIPLEX 3080 TOWER",
+                "cpu": "Core i3-10100",
+                "chipset": "Intel B360",
+                "ram": "4GB",
+                "vga": "onboard",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 18
+        },
+        {
+            "id": 217,
+            "image": "../../img/PC/217_ HP-PAVILION-TP01-1002D.png",
+            "title": "PC HP PAVILION TP01-1002D (I3-10105/4GB RAM/1TB HDD/DVDRW/WL+BT/K+M/WIN",
+            "price1": 10309000,
+            "sale_off": 10,
+            "price": 9299000,
+            "info": {
+                "producer": "HP",
+                "generic": "Pavilion TP01-1002d",
+                "cpu": "Core i3-10105",
+                "chipset": "Intel H470",
+                "ram": "4GB DDR4 2666Mhz",
+                "vga": "Onboard",
+                "diskdrive": "1TB HDD"
+            },
+            "quantily": 21
+        },
+        {
+            "id": 218,
+            "image": "../../img/PC/218_ ASUS-ALL-IN-ONE-V241E.png",
+            "title": "PC ASUS ALL IN ONE V241E (I5-1135G7/8GB RAM/512GB SSD/23.8 INCH FULL",
+            "price1": 8999000,
+            "sale_off": 18,
+            "price": 7399000,
+            "info": {
+                "producer": "Asus",
+                "generic": "ALL IN ONE V241E",
+                "cpu": "Intel Core i5-1135G7",
+                "ram": "8GB",
+                "vga": "Onboard",
+                "diskdrive": "512GB SSD"
+            },
+            "quantily": 24
+        },
+        {
+            "id": 219,
+            "image": "../../img/PC/219_ HACOM-BUSINESS-P15.png",
+            "title": "PC HACOM BUSINESS P15 (I3 10105/H510/8GB RAM/120GB SSD)",
+            "price1": 8999000,
+            "sale_off": 18,
+            "price": 7399000,
+            "info": {
+                "producer": "HACOM",
+                "generic": "HACOM BUSINESS P15",
+                "cpu": "Intel Core i3-10105",
+                "ram": "8Gb (1x8GB DRR4 Bus 2666Mhz)",
+                "vga": "onboard",
+                "diskdrive": "120Gb SSD"
+            },
+            "quantily": 11
+        },
+        {
+            "id": 220,
+            "image": "../../img/PC/220_ DELL-VOSTRO-3681-ST.png",
+            "title": "PC DELL VOSTRO 3681 ST (I7-10700/8GB RAM/512GB SSD/DVDRW/WL+BT/K+M/WIN10)",
+            "price1": 19649000,
+            "sale_off": 6,
+            "price": 18499000,
+            "info": {
+                "producer": "DELL",
+                "generic": " Vostro 3681",
+                "cpu": " Core i7-10700",
+                "chipset": "Intel® B460",
+                "ram": "8GB DDR4 2666Mhz",
+                "vga": "onboard",
+                "diskdrive": "512GB SSD"
+            },
+            "quantily": 2
+        }
+    ]
+}
