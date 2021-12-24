@@ -545,3 +545,8 @@ html{
 .page-icon{
     font-size: 2rem;
 }
+.modal-close-edit{
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+}

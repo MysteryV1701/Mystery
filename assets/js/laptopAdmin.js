@@ -44,7 +44,7 @@ class UI {
                     <div class="card-warehouse">
                         <div class="card-icon">
                             <ion-icon name="bag-check-outline"></ion-icon>
-                            <p>Số lượng: ${quantily} </p>
+                            <p>Số lượng: ${quantily}</p>
                         </div>
                         <div class="add-button" >
                             <a class="delete__product btn">Xoá</a>
@@ -132,7 +132,7 @@ class UI {
             html = html + `<div class="view-info">Ổ cứng: ${cartItem.info.diskdrive}</div>`
           }
           if(cartItem.info.vga){
-            html = html + `<div class="view-info">vga: ${cartItem.info.VGA}</div>`
+            html = html + `<div class="view-info">vga: ${cartItem.info.vga}</div>`
           }
           if(cartItem.info.computerscreen){
             html = html + `<div class="view-info">Màn hình: ${cartItem.info.computerscreen}</div>`
@@ -266,61 +266,61 @@ class UI {
     // itemTotals.innerText = itemTotal;
   }
 
-  addCartItem({ image, price, title, id }) {
-    const div = document.createElement("div");
-    div.classList.add("cart__item");
+  // addCartItem({ image, price, title, id }) {
+  //   const div = document.createElement("div");
+  //   div.classList.add("cart__item");
 
-    div.innerHTML = `<img src="${image}">
-          <div>
-            <h3>${title}</h3>
-            <h3 class="price">${price.toLocaleString('vi', {style : 'currency', currency : 'VND'})}</h3>
-          </div>
-          <div>
-            <span class="increase" data-id=${id}>
-              <svg>
-                <use xlink:href="../../img/screen/sprite.svg#icon-angle-up"></use>
-              </svg>
-            </span>
-            <p class="item__amount">1</p>
-            <span class="decrease" data-id=${id}>
-              <svg>
-                <use xlink:href="../../img/screen/sprite.svg#icon-angle-down"></use>
-              </svg>
-            </span>
-          </div>
+  //   div.innerHTML = `<img src="${image}">
+  //         <div>
+  //           <h3>${title}</h3>
+  //           <h3 class="price">${price.toLocaleString('vi', {style : 'currency', currency : 'VND'})}</h3>
+  //         </div>
+  //         <div>
+  //           <span class="increase" data-id=${id}>
+  //             <svg>
+  //               <use xlink:href="../../img/screen/sprite.svg#icon-angle-up"></use>
+  //             </svg>
+  //           </span>
+  //           <p class="item__amount">1</p>
+  //           <span class="decrease" data-id=${id}>
+  //             <svg>
+  //               <use xlink:href="../../img/screen/sprite.svg#icon-angle-down"></use>
+  //             </svg>
+  //           </span>
+  //         </div>
 
-            <span class="remove__item" data-id=${id}>
-              <svg>
-                <use xlink:href="../../img/screen/sprite.svg#icon-trash"></use>
-              </svg>
-            </span>
+  //           <span class="remove__item" data-id=${id}>
+  //             <svg>
+  //               <use xlink:href="../../img/screen/sprite.svg#icon-trash"></use>
+  //             </svg>
+  //           </span>
 
-        </div>`;
-    cartContent.appendChild(div);
-  }
+  //       </div>`;
+  //   cartContent.appendChild(div);
+  // }
 
-  show() {
-    cartDOM.classList.add("show");
-    // overlay.classList.add("show");
-  }
+  // show() {
+  //   cartDOM.classList.add("show");
+  //   // overlay.classList.add("show");
+  // }
 
-  hide() {
-    cartDOM.classList.remove("show");
-    // overlay.classList.remove("show");
-  }
+  // hide() {
+  //   cartDOM.classList.remove("show");
+  //   // overlay.classList.remove("show");
+  // }
 
-  setAPP() {
-    cart = Storage.getCart();
-    this.setItemValues(cart);
-    this.populate(cart);
+  // setAPP() {
+  //   cart = Storage.getCart();
+  //   this.setItemValues(cart);
+  //   this.populate(cart);
 
-    // openCart.addEventListener("click", this.show);
-    // closeCart.addEventListener("click", this.hide);
-  }
+  //   // openCart.addEventListener("click", this.show);
+  //   // closeCart.addEventListener("click", this.hide);
+  // }
 
-  populate(cart) {
-    cart.forEach(item => this.addCartItem(item));
-  }
+  // populate(cart) {
+  //   cart.forEach(item => this.addCartItem(item));
+  // }
 
   cartLogic() {
     // Clear Cart
@@ -444,7 +444,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const productList = new Products();
   const ui = new UI();
 
-  ui.setAPP();
+  // ui.setAPP();
 
   const products = await productList.getProducts();
   ui.displayProducts(products);

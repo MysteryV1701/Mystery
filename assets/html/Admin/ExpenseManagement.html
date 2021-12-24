@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/main.css">
-  <link rel="shortcut icon" href="./assets/img/favicon/favicon.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="../../img/favicon/favicon.svg" type="image/x-icon">
   <script src="https://kit.fontawesome.com/a2e771fb2d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
@@ -137,211 +137,170 @@
         </div>
         </header>
     </div>
-    <section class="container_main">
-      <!-- slider -->
-        <div class="slider">
-          <div class="swiper mySwiper slider_animation">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="../../img/banner/Banner_Mystery.jpg" class="slider_img" alt=""></div>
-              <div class="swiper-slide"><img src="../../img/banner/Banner_Noel.jpg" class="slider_img" alt=""></div>
-              <div class="swiper-slide"><img src="../../img/banner/Banner_Tet.jpg" class="slider_img" alt=""></div>
-              <div class="swiper-slide"><img src="../../img/banner/Banner_Noel.jpg" class="slider_img" alt=""></div>
-              <div class="swiper-slide"><img src="../../img/banner/Banner_Tet.jpg" class="slider_img" alt=""></div>
+    <section class="body">
+        <div class="body-wrapper">
+            <div class="col-1">
+                <div class="col-1__container">
+                    <div class="col-1__heading ">
+                        <i class="fas fa-user-circle"></i>
+                        <p>Chào mừng <span class="username2"></span> đã trở lại</p>
+                    </div>
+                    <div class="management-list">
+                        <a href="./AddProduct.html" class="management-list__page ">
+                            <i class="fas fa-plus"></i>
+                            <p>Thêm sản phẩm</p>
+                        </a>
+                        <a href="./OrderAdmin/OrderAdmin.html" class="management-list__page ">
+                            <i class="fas fa-clipboard-check"></i>
+                            <p>Quản lý đơn hàng</p>
+                        </a>
+                        <a href="./Turnover.html/Turnover.html" class="management-list__page ">
+                            <i class="far fa-calendar-check"></i>
+                            <p>Qoanh thu</p>
+                        </a>
+                        <a href="./ExpenseManagement.html" class="management-list__page management-active">
+                            <i class="fas fa-coins"></i>
+                            <p>Quản lý chi tiêu</p>
+                        </a>
+                        <a href="./AccountManagement.html" class="management-list__page">
+                            <i class="fas fa-user"></i>
+                            <p>Quản lý tài khoản</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-pagination dots"></div>
-          </div>
-        </div> <!-- sidebar -->
-        <div class="sidebar">
-          <a href="./laptopAdmin.html">Laptop - Macbook</a>
-          <a href="./pcAdmin.html">PC - Máy tính đồng bộ</a>
-          <a href="./screenAdmin.html">Màn hình máy tính</a>
-          <a href="./componentsAdmin.html">Linh kiện máy tính</a>
-          <a href="./sparePartsAdmin.html">Phụ kiện & thiết bị ngoại vi</a>
-        </div>
-        <div class="other-content_wrapper">
-          <div class="other-content">
-            <a href="#">
-              <img src="../../img/Something/other-content_bg1.jpg" alt="">
-              <p class="other-content_heading">Tin công nghệ</p>
-            </a>
-          </div>
-          <div class="other-content">
-            <a href="#">
-              <img src="../../img/Something/other-content_bg2.jpg" alt="">
-              <p class="other-content_heading">Build PC</p>
-            </a>
-          </div>
+            <div class="col-2__container">
+                <div class="col-2_wrapper">
+                    <div class="order__heading">
+                        <h2 class="col-2__heading">Quản lý thu chi</h2>
+                        <div class="order-other">
+                           <button class="btn">Xuất file</button>
+                           <button class="btn">Tạo phiếu chi</button>
+                           <button class="btn">Tạo phiếu thu</button>
+                        </div>
+                    </div>
+                    <div class="Expense">
+                        <div class="Expense-type">
+                            <div class="expense-detail">Quỹ đầu tư </div>                          
+                            <div class="expense-price">31.300.000&#8363;</div>
+                        </div>
+                        <div class="Expense-type">
+                            <div class="expense-detail">Tổng thu</div>                          
+                            <div class="expense-price1">302.321.000&#8363;</div>
+                        </div>
+                        <div class="Expense-type">
+                            <div class="expense-detail">Tổng chi</div>                          
+                            <div class="expense-price2">200.000.000&#8363;</div>
+                        </div>
+                        <div class="Expense-type">
+                            <div class="expense-detail">Tồn quỹ</div>                          
+                            <div class="expense-price3">133.621.000&#8363;</div>
+                        </div>
+                    </div>
+                    <div class="order-filter">
+                        <form action="">
+                            <div class="form-group form-type">
+                                <div class="form-select">
+                                    <select name="type" id="type">
+                                        <option value="">Lọc phiếu thu/chi</option>
+                                        <option value="">Tăng dần</option>
+                                        <option value="">Giảm dần</option>
+                                        
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group form-type">
+                                <div class="form-select">
+                                    <select name="type" id="type">
+                                        <option value="">Phân loại thu/chi</option>
+                                        <option value="">Phiếu chi</option>
+                                        <option value="">Phiếu thu</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="order-search">
+                                <input type="text" placeholder="Nhập từ khóa cần tìm">
+                                <button class="btn"><i class="fas fa-search"></i></button>
+                            </div>
+                            <button class="btn" type="submit">Lưu bộ lọc</button>
+                        </form>                   
+                    </div>
+                    <div class="order-wrapper">                  
+                        <table>
+                            <tr>
+                                <th>Mã phiếu</th>
+                                <th>Ngày tạo đơn</th>
+                                <th>Loại thu chi</th>
+                                <th>Người nộp/nhận</th>
+                                <th>Giá trị</th>
+                                <th>Mục đích phiêu thu/chi</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td class="order-id">TC00045</td>
+                                <td>23/12/2021 21:04</td>
+                                <td>Phí thu</td>
+                                <td>Dương Tấn Phát</td>
+                                <td>31.300.000&#8363;</td>
+                                <td>Thu tiền khách trả</td>                               
+                                <td><button class="btn-order">&times;</button></td>
+                            </tr>
+                            <tr>
+                                <td class="order-id">TC00045</td>
+                                <td>23/12/2021 21:04</td>
+                                <td>Phí thu</td>
+                                <td>Dương Tấn Phát</td>
+                                <td>31.300.000&#8363;</td>
+                                <td>Thu tiền khách trả</td>                               
+                                <td><button class="btn-order">&times;</button></td>
+                            </tr>
+                            <tr>
+                                <td class="order-id">TC00045</td>
+                                <td>23/12/2021 21:04</td>
+                                <td>Phí chi</td>
+                                <td>Dương Tấn Phát</td>
+                                <td>20.000.000&#8363;</td>
+                                <td>Chi trả tiề thuế</td>                               
+                                <td><button class="btn-order">&times;</button></td>
+                            </tr>
+                            <tr>
+                                <td class="order-id">TC00045</td>
+                                <td>23/12/2021 21:04</td>
+                                <td>Phí thu</td>
+                                <td>Dương Tấn Phát</td>
+                                <td>31.300.000&#8363;</td>
+                                <td>Thu tiền khách trả</td>                               
+                                <td><button class="btn-order">&times;</button></td>
+                            </tr>
+                            <tr>
+                                <td class="order-id">TC00045</td>
+                                <td>23/12/2021 21:04</td>
+                                <td>Phí chi</td>
+                                <td>Dương Tấn Phát</td>
+                                <td>20.000.000&#8363;</td>
+                                <td>Chi trả tiề thuế</td>                               
+                                <td><button class="btn-order">&times;</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="dot-pages">
+                        <div class="dot-page-wrapper">
+                            <i class="fas fa-chevron-left"></i>
+                            <div class="dot-page dot-page-active">1</div>
+                            <div class="dot-page">2</div>
+                            <div class="dot-page">3</div>
+                            <div class="dot-page">4</div>
+                            <i class="fas fa-chevron-right"></i>
+                            <p class="dot-page-detail"> Hiển thị 1 - 5 trên tổng số 100 phiếu đặt hàng</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
         </div>
     </section>
-    <section class="show-product-wapper">
-        <div class="famous-brand">
-          <h3>Thương hiệu nổi bật</h3>
-          <div class="trademarks">
-            <div class="trademark">
-              <img src="../../img/banner/banner-asus.jpg" alt="">
-              <h4>asus</h4>
-            </div>
-            <div class="trademark">
-              <img src="../../img/Something/hp-demo.jpg" alt="">
-              <h4>hp</h4>
-            </div>
-            <div class="trademark">
-              <img src="../../img/banner/banner-lenovo.jpg" alt="">
-              <h4>lenovo</h4>
-            </div>
-            <div class="trademark">
-              <img src="../../img/Something/msi-demo.png" alt="">
-              <h4>msi</h4>
-            </div>
-          </div>
-        </div>
-        <div class="product-categories">
-          <div class="product-category">
-            <div class="type-heading">
-              <h3>Laptop Gaming - Laptop Văn Phòng</h3>
-              <span>Xem tất cả <i class="fas fa-chevron-right"></i></span>
-            </div>
-            <div class="type-show">
-              <div class="type-item">
-                <h4>MSI Gaming</h4>
-                <p>Sức mạnh từ nhà rồng</p>
-                <img src="../../img/Something/msi-demo.png" alt="">
-              </div>
-              <div class="type-item">
-                <h4>Lễ hội Hp</h4>
-                <p>Siêu khuyến mãi</p>
-                <img src="../../img/Something/hp-demo.jpg" alt="">
-              </div>
-              <div class="type-item">
-                <h4>Người đồng hành Asus</h4>
-                <p>Vừa túi tiền sinh viên</p>
-                <img src="../../img/Something/asus-demo.jpg" alt="">
-              </div>
-              <div class="type-item">
-                <h4>Lenovo</h4>
-                <p>Dành cho doanh nhân</p>
-                <img src="../../img/Something/lenovo-demo.jpg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="product-category">
-            <div class="type-heading">
-              <h3>PC - Màn hình - link kiện máy tính</h3>
-              <span>Xem tất cả <i class="fas fa-chevron-right"></i></span>
-            </div>
-            <div class="type-show">
-              <div class="type-item">
-                <h4>Mystery PC</h4>
-                <p>Làm việc chuẩn mực</p>
-                <img src="../../img/Something/PcCase-demo.jpg" alt="">
-              </div>
-              <div class="type-item">
-                <h4>SSD</h4>
-                <p>Load manh trong tích tắc</p>
-                <img src="../../img/Something/ssd-demo.png" alt="">
-              </div>
-              <div class="type-item">
-                <h4>Màn hình Gaming</h4>
-                <p>Giảm tới 50%</p>
-                <img src="../../img/Something/Monitor-demo.png" alt="">
-              </div>
-              <div class="type-item">
-                <h4>RTX 30 Series</h4>
-                <p>Hiệu năng vượt bậc</p>
-                <img src="../../img/Something/RTX-demo.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="banner-show">
-          <img src="../../img/banner/Banner_Noel.jpg" alt="" srcset="" width="100%">
-        </div>
-        <div class="best-seller">
-          <div class="seller-detail">
-            <h3>Hàng bán chạy trong tháng</h3>
-            <span>Xem tất cả <i class="fas fa-chevron-right"></i></span>
-        </div>
-        <div class="seller-wrapper">
-          <div class="seller-list">
-            <div class="seller-item">
-              <img src="../../img/Product/2_MSI_MAG271C.jpeg" alt="">
-              <div class="seller-product-info">
-                <div class="name-seller-product">
-                  <p>Màn hình MSI Optix G27CQ4 (27inch/QHD/VA/165Hz/1ms/250nits/HDMI+DP+Audio/Cong)</p></div>
-                <div class="price-seller-product">
-                  <div class="old-price-seller">
-                    <div class="old-price">7.999.000 &#8363;</div>
-                    <div class="sell-price">( Tiết kiệm 19%)</div>
-                  </div>
-                  <div class="new-price-seller">6.500.000 &#8363;</div>
-                </div>
-              </div>
-              <a href=""><button class="btn btn-seller">Mua hàng ngay</button></a>
-            </div>
-            <div class="seller-item">
-              <img src="../../img/Product/2_MSI_MAG271C.jpeg" alt="">
-              <div class="seller-product-info">
-                <div class="name-seller-product">Màn hình MSI Optix G27CQ4 (27inch/QHD/VA/165Hz/1ms/250nits/HDMI+DP+Audio/Cong)</div>
-                <div class="price-seller-product">
-                  <div class="old-price-seller">
-                    <div class="old-price">7.999.000 &#8363;</div>
-                    <div class="sell-price">19%</div>
-                  </div>
-                  <div class="new-price-seller">6.500.000 &#8363;</div>
-                </div>
-              </div>
-              <a href=""><button class="btn btn-seller">Mua hàng ngay</button></a>
-            </div>
-            <div class="seller-item">
-              <img src="../../img/Product/2_MSI_MAG271C.jpeg" alt="">
-              <div class="seller-product-info">
-                <div class="name-seller-product">Màn hình MSI Optix G27CQ4 (27inch/QHD/VA/165Hz/1ms/250nits/HDMI+DP+Audio/Cong)</div>
-                <div class="price-seller-product">
-                  <div class="old-price-seller">
-                    <div class="old-price">7.999.000 &#8363;</div>
-                    <div class="sell-price">19%</div>
-                  </div>
-                  <div class="new-price-seller">6.500.000 &#8363;</div>
-                </div>
-              </div>
-              <a href=""><button class="btn btn-seller">Mua hàng ngay</button></a>
-            </div>
-            <div class="seller-item">
-              <img src="../../img/Product/2_MSI_MAG271C.jpeg" alt="">
-              <div class="seller-product-info">
-                <div class="name-seller-product">Màn hình MSI Optix G27CQ4 (27inch/QHD/VA/165Hz/1ms/250nits/HDMI+DP+Audio/Cong)</div>
-                <div class="price-seller-product">
-                  <div class="old-price-seller">
-                    <div class="old-price">7.999.000 &#8363;</div>
-                    <div class="sell-price">19%</div>
-                  </div>
-                  <div class="new-price-seller ">6.500.000 &#8363;</div>
-                </div>
-              </div>
-              <a href=""><button class="btn btn-seller">Mua hàng ngay</button></a>
-            </div>
-            <div class="seller-item">
-              <img src="../../img/Product/2_MSI_MAG271C.jpeg" alt="">
-              <div class="seller-product-info">
-                <div class="name-seller-product">Màn hình MSI Optix G27CQ4 (27inch/QHD/VA/165Hz/1ms/250nits/HDMI+DP+Audio/Cong)</div>
-                <div class="price-seller-product">
-                  <div class="old-price-seller">
-                    <div class="old-price">7.999.000 &#8363;</div>
-                    <div class="sell-price">19%</div>
-                  </div>
-                  <div class="new-price-seller">6.500.000 &#8363;</div>
-                </div>
-              </div>
-              <a href=""><button class="btn btn-seller">Mua hàng ngay</button></a>
-            </div>
-        </div>
-      </div>
-      </div>
-      <div class="banner-show">
-        <img src="../../img/banner/Banner_Tet.jpg" alt="" srcset="" width="100%">
-      </div>
-    </section>
-    
+
     <footer>
         <div class="footer-wrapper">
             <div class="top-service">
@@ -474,22 +433,8 @@
     </footer>
   </div>
   <script src="../../js/DropdownNav.js"></script>
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      effect: "fade",
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-      },
-    });
-  </script>
+  <script src="../../js/EditAccount.js"></script>
+
 </body>
 </html>
       
