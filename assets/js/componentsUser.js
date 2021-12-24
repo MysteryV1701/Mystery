@@ -119,8 +119,8 @@ class UI {
         var elementDetail = document.getElementById('modal-content-detail');
         if(cartItem && cartItem.info){
           let html = '';
-          if(cartItem.info.engine-graphic){
-            html = html + `<div class="view-info">Card: ${cartItem.info.engine-graphic}</div>`
+          if(cartItem.info.enginegraphic){
+            html = html + `<div class="view-info">Card: ${cartItem.info.enginegraphic}</div>`
           }
           if(cartItem.info.bus){
             html = html + `<div class="view-info">RAM: ${cartItem.info.bus}</div>`

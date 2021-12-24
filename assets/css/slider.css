@@ -8,18 +8,6 @@
     width: 100%;
     /* height: 100%; */
 }
-.slider_animation{
-    animation: slide 2s ease;
-}
-@keyframes slide{
-    0%{
-        transform: scale(1.1);
-        
-    }
-    100%{
-        transform: scale(1);
-    }
-}
 .slider_img{
     width: 100%;
     height: 500px;

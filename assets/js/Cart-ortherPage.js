@@ -57,39 +57,39 @@ class UI {
   //   productDOM.innerHTML = results;
   // }
 
-  getButtons() {
-    const buttons = [...document.querySelectorAll(".addToCart")];
-    buttonDOM = buttons;
-    buttons.forEach(button => {
-      const id = button.dataset.id;
-      const inCart = cart.find(item => item.id === parseInt(id, 10));
+  // getButtons() {
+  //   const buttons = [...document.querySelectorAll(".addToCart")];
+  //   buttonDOM = buttons;
+  //   buttons.forEach(button => {
+  //     const id = button.dataset.id;
+  //     const inCart = cart.find(item => item.id === parseInt(id, 10));
 
-      if (inCart) {
-        button.innerText = "Đã thêm";
-        button.disabled = true;
-      }
+  //     if (inCart) {
+  //       button.innerText = "Đã thêm";
+  //       button.disabled = true;
+  //     }
 
-        button.addEventListener("click", e => {
-          e.preventDefault();
-          e.target.innerHTML = "Đã thêm";
-          e.target.disabled = true;
+  //       button.addEventListener("click", e => {
+  //         e.preventDefault();
+  //         e.target.innerHTML = "Đã thêm";
+  //         e.target.disabled = true;
           
-          // Get product from products
-          const cartItem = { ...Storage.getProduct(id), amount: 1 };
+  //         // Get product from products
+  //         const cartItem = { ...Storage.getProduct(id), amount: 1 };
   
-          // Add product to cart
-          cart = [...cart, cartItem];
+  //         // Add product to cart
+  //         cart = [...cart, cartItem];
   
-          // save the cart in local storage
-          Storage.saveCart(cart);
-          // set cart values
-          this.setItemValues(cart);
-          // display the cart item
-          this.addCartItem(cartItem);
-          // show the cart
-        });
-    });
-  }
+  //         // save the cart in local storage
+  //         Storage.saveCart(cart);
+  //         // set cart values
+  //         this.setItemValues(cart);
+  //         // display the cart item
+  //         this.addCartItem(cartItem);
+  //         // show the cart
+  //       });
+  //   });
+  // }
 
   // getViewButtons() {
   //   var modal = document.getElementById("myModal");
@@ -330,18 +330,18 @@ class UI {
   // }
 }
 
-// class Products {
-//   async getProducts() {
-//     try {
-//       const result = await fetch("../../json/screen.json");
-//       const data = await result.json();
-//       const products = data.items;
-//       return products;
-//     } catch (err) {
-//       console.log(err);
-//     }
-//   }
-// }
+class Products {
+  async getProducts() {
+    try {
+      const result = await fetch("../../json/screen.json");
+      const data = await result.json();
+      const products = data.items;
+      return products;
+    } catch (err) {
+      console.log(err);
+    }
+  }
+}
 
 class Storage {
   static saveProduct(obj) {
@@ -352,10 +352,10 @@ class Storage {
     localStorage.setItem("cart", JSON.stringify(cart));
   }
 
-  // static getProduct(id) {
-  //   const products = JSON.parse(localStorage.getItem("products"));
-  //   return products.find(product => product.id === parseFloat(id, 10));
-  // }
+  static getProduct(id) {
+    const products = JSON.parse(localStorage.getItem("products"));
+    return products.find(product => product.id === parseFloat(id, 10));
+  }
 
   static getCart() {
     return localStorage.getItem("cart")
@@ -370,10 +370,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   ui.setAPP();
 
-  // const products = await productList.getProducts();
+  const products = await productList.getProducts();
   // ui.displayProducts(products);
-  // Storage.saveProduct(products);s
-  ui.getButtons();
+  Storage.saveProduct(products);
+  // ui.getButtons();
   // ui.getViewButtons();
   ui.cartLogic();
   // ui.filterButtons();
