@@ -1,39 +1,16 @@
-const login = document.querySelector(".login-btn");
-const userName = document.querySelector(".username");
-const password = document.querySelector(".password");
-const textMessage = document.querySelector(".text-message");
 
 
-const handleLogin = () => {
-    let userList = JSON.parse(localStorage.getItem('userList'));
-    console.log(userList)
-
-    userList.forEach((user) => {
-        if (user.username.toLocaleLowerCase() === userName.value.toLocaleLowerCase() &&
-         user.password.toLocaleLowerCase() === password.value.toLocaleLowerCase()) {
-             if (user.role === 'user') {
-                window.location = "./User/HomeUser.html";
-                localStorage.setItem('userName', JSON.stringify(user));
-             } else if (user.role === 'admin') {
-                window.location = "./Admin/HomeAdmin.html";
-             } else {
-                console.error("Invalid role: " + user.role);
-                localStorage.setItem('userName', user.username);
-             }
-         } else {
-             textMessage.innerText = "Tài khoản hoặc mật khẩu sai!!!";
-         }
-     })
-} 
-login.onclick = () => {
-    handleLogin();
-}
+const registerBtn = document.querySelector(".register-btn")
+const regMessage = document.querySelector(".reg-message");
 
 const regUser = document.querySelector(".reg-username");
 const regPass = document.querySelector(".reg-password");
-const registerBtn = document.querySelector(".register-btn")
-const regMessage = document.querySelector(".reg-message");
+const regPass2 = document.querySelector(".reg-password2");
+const regEmail = document.querySelector(".reg-email")
 const regName = document.querySelector(".reg-name");
+const regTel=document.querySelector(".reg-tel");
+
+
 const handleRegister = () => {
     if (!localStorage.getItem('userList')) {
         localStorage.setItem('userList', JSON.stringify(""));
@@ -52,29 +29,42 @@ const handleRegister = () => {
                     username: regUser.value, 
                     password: regPass.value, 
                     name: regName.value, 
+                    telephone:regTel.value,
+                    email:regEmail.value,
                     role: "user"
                 }
                 userList = [...userList, newUser];
                 localStorage.setItem('userList', JSON.stringify(userList));
                 regMessage.innerText = "Đăng ký thành công";
-                break;
+                // regUser.value="",
+                // regPass.value="",
+                // regPass2.value="",
+                // regEmail.value="",
+                // regName.value="",
+                // regTel.value=""
             }
         }
     } else {
         let newUser = {
             username: regUser.value, 
-            password: regName.value, 
-            name: regPass.value, 
+            password: regPass.value, 
+            name: regName.value, 
+            telephone:regTel.value,
+            email:regEmail.value,
             role: "user"
         }
         userList = [...userList, newUser];
         localStorage.setItem('userList', JSON.stringify(userList));
         regMessage.innerText = "Đăng ký thành công";
+        // regUser.value="",
+        // regPass.value="",
+        // regPass2.value="",
+        // regEmail.value="",
+        // regName.value="",
+        // regTel.value=""
     }
 }
 
- 
 registerBtn.onclick = () => {
-
     handleRegister();
 }

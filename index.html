@@ -12,22 +12,29 @@
   <link rel="shortcut icon" href="./assets/img/favicon/favicon.svg" type="image/x-icon">
   <script src="https://kit.fontawesome.com/a2e771fb2d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css"/>
+  
 </head>
 <body>
   <div class="main">
     <div class="header">
-      <div class="header">
         <header>
           <!-- Header Title Contact -->
           <div class="header_contact">
             <ul class="list_contact">
               <li class="info_contact">
-                <i class="fas fa-home"></i>
-                <p>Hệ thống showroom</p>
+                <a href="./introduce.html">
+                  <i class="fas fa-home"></i>
+                  <p>Giới thiệu về Mystery</p>
+                </a>
               </li>
               <li class="info_contact">
-                <i class="fas fa-headset"></i>
-                <p>Tư vấn mua hàng: <tel>1900 1234</tel></p>
+                <a href="#footer">
+                  <i class="fas fa-headset"></i>
+                  <p>Thông tin liên hệ</p>
+              </a>
               </li>
               <li class="info_contact">
                 <i class="fas fa-tv"></i>
@@ -42,70 +49,110 @@
           <nav>
             <!-- Navagation -->
               <div class="Navbar">           
-                  <a href="#"><img src="./assets/img/logo/Logo_Mystery_Light.svg" alt=""class="Nav_logo"></a>
+                  <a href="./index.html"><img src="./assets/img/logo/Logo_Mystery_Light.svg" alt=""class="Nav_logo"></a>
                   <div class="dropdown">
                       <i class="fas fa-bars"></i>
                       <button class="btn-dropdown"> Danh mục sản phẩm</button>
                       <div class="dropdown__list">
-                          <a href="./assets/html/Passersby/laptopPassersby.html">Laptop - Macbook</a>
-                          <a href="./assets/html/Passersby/pcPassersby.html">PC - Máy tính đồng bộ</a>
-                          <a href="./assets/html/Passersby/screenPassersby.html">Màn hình máy tính</a>
-                          <a href="./assets/html/Passersby/componentsPassersby.html">Linh kiện máy tính</a>
-                          <a href="./assets/html/Passersby/sparePartsPassersby.html">Phụ kiện & thiết bị ngoại vi</a>
+                        <a href="#" onclick="viewAllProduct('laptop')">Laptop - Macbook</a>
+                        <a href="#" onclick="viewAllProduct('PC')">PC - Máy tính đồng bộ</a>
+                        <a href="#" onclick="viewAllProduct('Monitor')">Màn hình máy tính</a>
+                        <a href="#" onclick="viewAllProduct('components')">Linh kiện máy tính</a>
+                        <a href="#" onclick="viewAllProduct('Spare-part')">Phụ kiện & thiết bị ngoại vi</a>
                       </div>
                   </div>                                              
                   <div class="Nav_Search">
-                      <input type="text" placeholder="Nhập từ khóa cần tìm">
-                      <button><i class="fas fa-search"></i></button>
+                    <div class="Search-wrapper">
+                      <input type="text" placeholder="Nhập từ khóa cần tìm" id="search-input">
+                      <button id="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <ul id="search-box"></ul>
                   </div>
                   <div class="Nav_listchoose">
-                  <ul>
-                      <li class="list_item"><a href="./assets/html/Promotion.html"><i class="fas fa-receipt"></i>Khuyến mãi</a></li>
-                      <li class="list_item dropdown-user">
-                          <a href="./assets/html/SignIn.html"><i class="fas fa-user-circle"></i>Đăng nhập</a>
-                      </li>
-                      <li class="list_item cart__icon">
-                          <i class="fas fa-shopping-cart"></i>
-                              <div class="">Giỏ hàng
-                              <span class="item__total"></span>
-                          </div>
-                      </li>
-                  </ul>
+                    <ul>
+                        <li class="list_item"><a href="./Promotion.html"><i class="fas fa-receipt"></i>Khuyến mãi</a></li>
+                        <li class="list_item login" id="log-and-reg">
+                            <a href="./SignIn.html"><i class="fas fa-user-circle"></i>Đăng nhập</a>
+                        </li>
+                        <li class="list_item account hide" id="user-section">
+                          <ul>
+                            <li class="list_item dropdown-user"><i class="fas fa-bell"></i></i>Thông báo
+                                <div class="alert-user">
+                                    <i class="fas fa-search"></i>
+                                    Hiện tại bạn chưa có thông báo mới
+                                </div>
+                            </li>
+                            <li class="list_item dropdown-user">
+                                <i class="fas fa-user-circle"></i><p class="username"></p>
+                                <div class="dropdown-user__list">
+                                  <a href="./Management.html">Thông tin tài khoản</a>
+                                  <a href="./Order.html">Quản lý đơn hàng</a>
+                                  <a href="./EditAccount.html">Thay đổi tài khoản</a>
+                                  <a href="" id="logout-btn"><button class="btn">Đăng xuất</button></a>
+                                </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="list_item "><a href="./Cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div class="">Giỏ hàng</div></a>
+                        </li>
+                    </ul>
                   </div>
               </div>
-              <div id="Navbar">           
-                <a href="#"><img src="./assets/img/logo/Logo_Mystery_Light.svg" alt=""class="Nav_logo"></a>
+               <div id="Navbar">           
+                <a href="./index.html"><img src="./assets/img/logo/Logo_Mystery_Light.svg" alt=""class="Nav_logo"></a>
                 <div class="dropdown">
                     <i class="fas fa-bars"></i>
                     <button class="btn-dropdown"> Danh mục sản phẩm</button>
                     <div class="dropdown__list">
-                        <a href="./assets/html/Passersby/laptopPassersby.html">Laptop - Macbook</a>
-                        <a href="./assets/html/Passersby/pcPassersby.html">PC - Máy tính đồng bộ</a>
-                        <a href="./assets/html/Passersby/screenPassersby.html">Màn hình máy tính</a>
-                        <a href="./assets/html/Passersby/componentsPassersby.html">Linh kiện máy tính</a>
-                        <a href="./assets/html/Passersby/sparePartsPassersby.html">Phụ kiện & thiết bị ngoại vi</a>
+                      <a href="#" onclick="viewAllProduct('laptop')">Laptop - Macbook</a>
+                      <a href="#" onclick="viewAllProduct('PC')">PC - Máy tính đồng bộ</a>
+                      <a href="#" onclick="viewAllProduct('Monitor')">Màn hình máy tính</a>
+                      <a href="#" onclick="viewAllProduct('components')">Linh kiện máy tính</a>
+                      <a href="#" onclick="viewAllProduct('Spare-part')">Phụ kiện & thiết bị ngoại vi</a>
                     </div>
-                </div>                                       
-                  <div class="Nav_Search">
-                      <input type="text" placeholder="Nhập từ khóa cần tìm">
-                      <button><i class="fas fa-search"></i></button>
+                </div>                                              
+                <div class="Nav_Search">
+                  <div class="Search-wrapper">
+                    <input type="text" placeholder="Nhập từ khóa cần tìm" id="search-input1">
+                    <button id="search-btn1"><i class="fas fa-search"></i></button>
                   </div>
-                  <div class="Nav_listchoose">
+                  <ul id="search-box1"></ul>
+                </div>
+                <div class="Nav_listchoose">
                   <ul>
-                      <li class="list_item"><a href="./assets/html/Promotion.html""><i class="fas fa-receipt"></i>Khuyến mãi</a></li>
-                      <li class="list_item dropdown-user">
-                        <a href="./assets/html/SignIn.html"><i class="fas fa-user-circle"></i>Đăng nhập</a>
+                      <li class="list_item"><a href="./Promotion.html"><i class="fas fa-receipt"></i>Khuyến mãi</a></li>
+                      <li class="list_item login" id="log-and-reg1">
+                          <a href="./SignIn.html"><i class="fas fa-user-circle"></i>Đăng nhập</a>
                       </li>
-                      <li class="list_item cart__icon">
+                      <li class="list_item account hide" id="user-section1">
+                        <ul>
+                          <li class="list_item dropdown-user"><i class="fas fa-bell"></i></i>Thông báo
+                              <div class="alert-user">
+                                  <i class="fas fa-search"></i>
+                                  Hiện tại bạn chưa có thông báo mới
+                              </div>
+                          </li>
+                          <li class="list_item dropdown-user">
+                              <i class="fas fa-user-circle"></i><p class="username1"></p>
+                              <div class="dropdown-user__list">
+                                  <a href="./Management.html">Thông tin tài khoản</a>
+                                  <a href="./Order.html">Quản lý đơn hàng</a>
+                                  <a href="./EditAccount.html">Thay đổi tài khoản</a>
+                                  <a href="" id="logout-btn"><button class="btn">Đăng xuất</button></a>
+                              </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="list_item "><a href="./Cart.html">
                           <i class="fas fa-shopping-cart"></i>
-                          <div class="">Giỏ hàng
-                          <span class="item__total"></span>
-                          </div>
+                          <div class="">Giỏ hàng</div></a>
                       </li>
                   </ul>
-                  </div>
-              </div>
-          </nav>
+                </div>
+              </div> 
+            </nav>
           <div class="interactive-active">
               <div class="active-socials">
                   <div class="active-social tel">
@@ -146,11 +193,11 @@
           </div>
         </div> <!-- sidebar -->
         <div class="sidebar">
-          <a href="./assets/html/Passersby/laptopPassersby.html">Laptop - Macbook</a>
-          <a href="./assets/html/Passersby/pcPassersby.html">PC - Máy tính đồng bộ</a>
-          <a href="./assets/html/Passersby/screenPassersby.html">Màn hình máy tính</a>
-          <a href="./assets/html/Passersby/componentsPassersby.html">Linh kiện máy tính</a>
-          <a href="./assets/html/Passersby/sparePartsPassersby.html">Phụ kiện & thiết bị ngoại vi</a>
+          <a href="#" onclick="viewAllProduct('laptop')">Laptop - Macbook</a>
+          <a href="#" onclick="viewAllProduct('PC')">PC - Máy tính đồng bộ</a>
+          <a href="#" onclick="viewAllProduct('Monitor')">Màn hình máy tính</a>
+          <a href="#" onclick="viewAllProduct('components')">Linh kiện máy tính</a>
+          <a href="#" onclick="viewAllProduct('Spare-part')">Phụ kiện & thiết bị ngoại vi</a>
         </div>
         <div class="other-content_wrapper">
           <div class="other-content">
@@ -335,8 +382,77 @@
         <img src="./assets/img/banner/Banner_Tet.jpg" alt="" srcset="" width="100%">
       </div>
     </section>
-    
-    <footer>
+    <section class = "product-content">
+      <div class="product-index">
+        <div class="container">
+          <div class="product__header">
+            <h2 class="heading ">Laptop - Macbook</h2>
+            <div class="btn__list">
+              <button class="btn" id="view-all-btn" onclick="viewAllProduct('laptop')">Xem tất cả sản phẩm</button>
+            </div>
+          </div>
+        </div>
+        <div id="data-container__laptop"></div>
+        <div id="pagination__laptop"></div>
+      </div> 
+    </section>
+    <section class = "product-content">
+      <div class="product-index">
+        <div class="container">
+          <div class="product__header">
+            <h2 class="heading ">Case PC</h2>
+            <div class="btn__list">
+              <button class="btn" id="view-all-btn"  onclick="viewAllProduct('PC')">Xem tất cả sản phẩm</button>
+            </div>
+          </div>
+        </div>
+        <div id="data-container__PC"></div>
+        <div id="pagination__PC"></div>
+      </div>
+    </section>
+    <section class = "product-content">
+      <div class="product-index">
+        <div class="container">
+          <div class="product__header">
+            <h2 class="heading ">Card đồ họa</h2>
+            <div class="btn__list">
+              <button class="btn" id="view-all-btn"  onclick="viewAllProduct('Spare-part')">Xem tất cả sản phẩm</button>
+            </div>
+          </div>
+        </div>
+        <div id="data-container__Spare-part"></div>
+        <div id="pagination__Spare-part"></div>
+      </div>
+    </section>
+    <section class = "product-content">
+      <div class="product-index">
+        <div class="container">
+          <div class="product__header">
+            <h2 class="heading ">Vi xử lý</h2>
+            <div class="btn__list">
+              <button class="btn" id="view-all-btn"  onclick="viewAllProduct('components')">Xem tất cả sản phẩm</button>
+            </div>
+          </div>
+        </div>
+        <div id="data-container__components"></div>
+        <div id="pagination__components"></div>
+      </div>
+    </section>
+    <section class ="product-content">
+      <div class="product-index">
+        <div class="container">
+          <div class="product__header">
+            <h2 class="heading">Màn hình máy tính</h2>
+            <div class="btn__list">
+              <button class="btn" id="view-all-btn"  onclick="viewAllProduct('Monitor')">Xem tất cả sản phẩm</button>
+            </div>
+          </div>
+        </div>
+        <div id="data-container__Monitor"></div>
+        <div id="pagination__Monitor" class="pagination"></div>
+      </div>
+    </section>
+    <footer id="footer">
         <div class="footer-wrapper">
             <div class="top-service">
                 <div class="service-list">
@@ -467,7 +583,12 @@
         </div>
     </footer>
   </div>
-  <script src="./assets/js/DropdownNav.js"></script>
+  <script src="./assets/js/product.js"></script>
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/Nav.js"></script>
+  <script src="./assets/js/nav-onscroll.js"></script>
+  <script src="./assets/js/search.js"></script>
+  <script src="./assets/js/renderProduct.js"></script>
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {

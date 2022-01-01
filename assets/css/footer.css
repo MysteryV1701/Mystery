@@ -66,9 +66,7 @@
     left: 0;
     background-color: var(--color-primary);
 }
-.contact .contact-list{
-    
-}
+
 .contact .contact-payment{
     display: flex;
 }

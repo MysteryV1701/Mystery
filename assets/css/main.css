@@ -3,11 +3,11 @@
 @import url(./slider.css);
 @import url(./product.css);
 @import url(./SignIn.css);
-@import url(./UnitPrice.css);
 @import url(./ManagementUser.css);
 @import url(./footer.css);
 @import url(./global.css);
-@import url(./TaskAdmin.css);
+/* @import url(./TaskAdmin.css); */
+@import url(./product.css);
 *{
     margin: 0;
     padding: 0;
