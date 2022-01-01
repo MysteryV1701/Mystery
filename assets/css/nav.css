@@ -322,10 +322,14 @@ nav{
 }
 .active-socials .active-social{
     margin: 1.5rem 0;
-    border-radius: 50px;
+    border-radius: 50%;
     color: #fff;
     cursor: pointer;
 }
+.active-social.height{
+    padding: .7rem;
+}
+
 .active-socials .face{
    background-color:  #365899;
 }

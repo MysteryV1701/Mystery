@@ -379,3 +379,29 @@
 .general-detail .people{
    line-height: 3rem;
 }
+.container .product__header{
+    background-color: var(--color-secondary);
+    color: #fff;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.product__header .btn__list .btn{
+    border: 1px solid #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+.product__header .btn__list .btn:hover{
+    border-color:var(--color);
+}
+.product-index{
+    background-color: #fff;
+    padding: 1rem .3rem 2rem;
+    border-radius: 5px;
+}
+.product-index .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
