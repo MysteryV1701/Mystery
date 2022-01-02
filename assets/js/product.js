@@ -6,15 +6,9 @@ let generateProducts = [
         price1: 9299000,
         sale_off: 3,
         price: 8989000,
-        info: {
-            producer: "MSI",
-            name: "G27CQ4",
-            segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA",
-            sweepFrequency: "165Hz",
-            color: "blue"
+        info:{
+            desc: "Nhà sản xuất MSI | Tên sản phẩm : G27CQ4 | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải 2560 x 1440 ( QHD ) | Tần số quét 165Hz | Màu sắc : Blue",
+            producer: "MSI"
         },
         quantily: 23,
         type:"Monitor"
@@ -26,15 +20,9 @@ let generateProducts = [
         price1: 8079000,
         sale_off: 19,
         price: 6529000,            
-        info: {
-            producer: "MSI",
-            name: "G27CQ4",
-            segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA",
-            sweepFrequency: "165Hz",
-            color: "Dark"
+        info:{
+            desc: "Nhà sản xuất MSI | Tên sản phẩm : G27CQ4 | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải 2560 x 1440 ( QHD ) | Tần số quét 165Hz | Màu sắc : Dark",
+            producer: "MSI"
         },
         quantily: 25,
         type:"Monitor"
@@ -47,14 +35,7 @@ let generateProducts = [
         sale_off: 8,
         price: 6819000,
         info: {
-            producer: "MSI",
-            name: "G271",
-            segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "1920 x 1080 (FHD)",
-            panel: "IPS",
-            sweepFrequency: "144Hz",
-            color: "dark"
+            desc:"Nhà sản xuất MSI | Tên sản phẩm : G271 | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải 1920 x 1080 (FHD) | Tần số quét 144Hz | Tấm nền  IPS | Màu sắc : Dark",producer: "MSI"
         },
         quantily: 28,
         type:"Monitor"
@@ -66,15 +47,9 @@ let generateProducts = [
         price1: 31710009,
         sale_off: 7,
         price: 29489000,
-        info: {
-            producer: "ACER",
-            name: "G27CQ4",
-            segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA",
-            sweepFrequency: "165Hz",
-            color: "black/red"
+        info:{ 
+            desc:"Nhà sản xuất Acer | Tên sản phẩm : G27CQ4 | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải 1920 x 1080 (FHD) | Tần số quét 144Hz | Tấm nền  VA | Màu sắc : black/red",
+            producer: "Acer",
         },
         quantily: 17,
         type:"Monitor"
@@ -87,13 +62,8 @@ let generateProducts = [
         sale_off: 18,
         price: 2699000,
         info: {
-            producer: "ACER",
-            name: "K202HQL",
-            segment: "Văn Phòng",
-            size: "19.5 inch",
-            resolution: "HD+ 1600 x 900 ",
-            sweepFrequency: "60Hz",
-            color: "black"
+            desc:"Nhà sản xuất Acer | Tên sản phẩm : K202HQL | Phân khúc Văn Phòng | Kích thước 27 inch (69 cm) | Độ phân giải HD+ 1600 x 900 | Tần số quét 60Hz | Tấm nền  VA | Màu sắc : black",
+            producer: "Acer",
         },
         quantily: 30,
         type:"Monitor"
@@ -105,15 +75,9 @@ let generateProducts = [
         price1: 5039000,
         sale_off: 10,
         price: 4539000,
-        info: {
-            producer: "MSI",
-            name: "Nitro VG240Y",
-            segment: "Gaming",
-            size: "23.8 inch",
-            resolution: "FHD 1920x1080 ",
-            panel: "IPS",
-            sweepFrequency: "75Hz",
-            color: "black/ red"
+        info:{
+            desc:"Nhà sản xuất Acer | Tên sản phẩm : Nitro VG240Y | Phân khúc Gaming | Kích thước 23.8 inch | Độ phân giải FHD 1920x1080 | Tần số quét 75Hz | Tấm nền IPS | Màu sắc : black/red",
+            producer: "Acer",
         },
         quantily: 18,
         type:"Monitor"
@@ -126,14 +90,8 @@ let generateProducts = [
         sale_off: 6,
         price: 5399000,
         info: {
-            producer: "AOC",
-            name: "C32V1Q/74",
-            segment: "Văn phòng",
-            size: "31.5 inch",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA Cong 1800R",
-            sweepFrequency: "165Hz",
-            color: "black"
+            desc:"Nhà sản xuất AOC | Tên sản phẩm : C32V1Q/74 | Phân khúc Văn phòng | Kích thước 23.8 inch | Độ phân giải QHD 2560x1440 | Tần số quét 165Hz | Tấm nền VA Cong 1800R | Màu sắc : black",
+            producer: "AOC"
         },
         quantily: 25,
         type:"Monitor"
@@ -146,6 +104,7 @@ let generateProducts = [
         sale_off: 6,
         price: 6649000,
         info: {
+            desc:"Nhà sản xuất AOC | Tên sản phẩm : CQ27G2/74 | Phân khúc Gaming | Kích thước 27 inch | Độ phân giải QHD 2560x1440 | Tần số quét 165Hz | Tấm nền VA Cong 1800R | Màu sắc : black",
             producer: "AOC",
             name: "CQ27G2/74",
             segment: "Gaming",
@@ -166,6 +125,7 @@ let generateProducts = [
         sale_off: 17,
         price: 3249000,
         info: {
+            desc:"Nhà sản xuất AOC | Tên sản phẩm : G27CQ4 | Phân khúc Văn phòng | Kích thước 21.5 inch | Độ phân giải FHD 1920x1080 | Tần số quét 60Hz | Tấm nền IPS | Màu sắc : Dark",
             producer: "AOC",
             name: "G27CQ4",
             segment: "Văn phòng",
@@ -186,6 +146,7 @@ let generateProducts = [
         sale_off: 3,
         price: 11119000,
         info: {
+            desc:"Nhà sản xuất MSI | Tên sản phẩm : G27CQ4 | Phân khúc Gaming | Kích thước 27 inch | Độ phân giải WQHD 2560x 1440 | Tần số quét 75Hz | Tấm nền IPS | Màu sắc : Dark",
             producer: "MSI",
             name: "G27CQ4",
             segment: "Gaming",
@@ -206,6 +167,7 @@ let generateProducts = [
         sale_off: 7,
         price: 6729000,
         info: {
+            desc:"Nhà sản xuất MSI | Tên sản phẩm : G27CQ4 | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải 2560 x 1440 ( QHD ) | Tần số quét 165Hz | Tấm nền VA | Màu sắc : Blue",
             producer: "MSI",
             name: "G27CQ4",
             segment: "Gaming",
@@ -226,12 +188,13 @@ let generateProducts = [
         sale_off: 11,
         price: 5619000,
         info: {
+            desc:"Nhà sản xuất Asus | Tên sản phẩm : VA27EHE | Phân khúc Gaming | Kích thước 27 inch (69 cm) | Độ phân giải FHD | Tần số quét 165Hz | Tấm nền IPS | Màu sắc : Blue",
             producer: "MSI",
-            name: "G27CQ4",
+            name: "VA27EHE",
             segment: "Gaming",
             size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA",
+            resolution: "FHD",
+            panel: "IPS",
             sweepFrequency: "165Hz",
             color: "blue"
         },
@@ -246,13 +209,14 @@ let generateProducts = [
         sale_off: 6,
         price: 10499000,
         info: {
-            producer: "MSI",
-            name: "G27CQ4",
+            desc:"Nhà sản xuất BenQ | Tên sản phẩm : Zowie EW3270U | Phân khúc Gaming | Kích thước 31.5inch | Độ phân giải 4K | Tần số quét 60Hz | Tấm nền VA | Màu sắc : Blue",
+            producer: "BenQ",
+            name: "Zowie EW3270U",
             segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
+            size: "31.5inch",
+            resolution: "4K",
             panel: "VA",
-            sweepFrequency: "165Hz",
+            sweepFrequency: "60Hz",
             color: "blue"
         },
         quantily: 22,
@@ -266,13 +230,14 @@ let generateProducts = [
         sale_off: 8,
         price: 6539000,
         info: {
-            producer: "MSI",
-            name: "G27CQ4",
+            desc:"Nhà sản xuất BenQ | Tên sản phẩm : EX2510 | Phân khúc Gaming | Kích thước 24.5inch | Độ phân giải FHD | Tần số quét 144Hz | Tấm nền IPS | Màu sắc : Blue",
+            producer: "BenQ",
+            name: "EX2510",
             segment: "Gaming",
-            size: "27 inch (69 cm)",
-            resolution: "2560 x 1440 ( QHD )",
-            panel: "VA",
-            sweepFrequency: "165Hz",
+            size: "24.5inch",
+            resolution: "FHD",
+            panel: "IPS",
+            sweepFrequency: "144Hz",
             color: "blue"
         },
         quantily: 17,
@@ -286,11 +251,13 @@ let generateProducts = [
         sale_off: 8,
         price: 13489000,
         info: {
+            desc:"Nhà sản xuất BenQ | Tên sản phẩm : XL2546K | Phân khúc Gaming | Kích thước 24 inch | Độ phân giải 1920 x 1080 at 240Hz (HDMI 2.0, DP) | Tần số quét 165Hz | Tấm nền TN | Màu sắc : Blue",
+            producer:"BenQ",
             name: "XL2546K",
             segment: "Gaming",
             size: "24 inch",
             resolution: "1920 x 1080 at 240Hz (HDMI 2.0, DP)",
-            panel: "",
+            panel: "TN",
             sweepFrequency: "165Hz",
             color: "blue"
         },
@@ -305,7 +272,8 @@ let generateProducts = [
         sale_off: 12,
         price: 4849000,
         info: {
-            producer: "DELL",
+            desc:"Nhà sản xuất Dell | Tên sản phẩm : P2319H | Phân khúc Gaming | Kích thước 24 inch | Độ phân giải Full HD (1920x1080) | Tần số quét 60Hz | Tấm nền IPS | Màu sắc : Dark",
+            producer: "Dell",
             name: "P2319H",
             segment: "Gaming",
             size: "24 inch",
@@ -325,13 +293,14 @@ let generateProducts = [
         sale_off: 15,
         price: 3739000,
         info: {
-            producer: "DELL",
+            desc:"Nhà sản xuất Dell | Tên sản phẩm : E2020H | Phân khúc Màn hình thông dụng | Kích thước 19.5 inch | Độ phân giải 1600x900 HD | Tần số quét 60Hz | Tấm nền TN | Màu sắc : Dark",
+            producer: "Dell",
             name: "E2020H",
             segment: "Màn hình thông dụng",
             size: "19.5 inch",
             resolution: "1600x900 HD",
             panel: "TN",
-            sweepFrequency: "1600x900 HD",
+            sweepFrequency: "60Hz",
             color: "Đen"
         },
         quantily: 15,
@@ -345,12 +314,13 @@ let generateProducts = [
         sale_off: 6,
         price: 6659000,
         info: {
+            desc:"Nhà sản xuất Dell | Tên sản phẩm : E2720HS | Phân khúc Màn hình thông dụng | Kích thước 27 inch (69 cm) | Độ phân giải 1600x900 HD | Tần số quét 60Hz | Tấm nền IPS | Màu sắc : Dark",
             producer: "Dell",
             name: "E2720HS",
             segment: "Màn hình thông dụng",
             size: "27 inch (69 cm)",
             resolution: "Full HD (1920x1080)",
-            panel: "TN",
+            panel: "IPS",
             sweepFrequency: "60Hz",
             color: "Đen"
         },
@@ -365,11 +335,12 @@ let generateProducts = [
         sale_off: 15,
         price: 9409000,
         info: {
+            desc:"Nhà sản xuất HP | Tên sản phẩm : 27XQ | Phân khúc Văn phòng | Kích thước 27 inch (69 cm) | Độ phân giải 2K | Tần số quét 144Hz | Tấm nền TN | Màu sắc : Dark",
             producer: "HP",
-            name: "E2720HS",
+            name: "27XQ",
             segment: "Màn hình thông dụng",
             size: "27 inch (69 cm)",
-            resolution: "2560 x 1440",
+            resolution: "2K",
             panel: "TN",
             sweepFrequency: "144Hz",
             color: "Đen"
@@ -385,6 +356,7 @@ let generateProducts = [
         sale_off: 8,
         price: 6159000,
         info: {
+            desc:"Nhà sản xuất HP | Tên sản phẩm : Z24f G3 _3G828AA | Phân khúc Văn phòng | Kích thước 23.8 inch | Độ phân giải 1920x1080 | Tần số quét 60Hz | Tấm nền IPS | Màu sắc : Dark",
             producer: "HP",
             name: "Z24f G3 _3G828AA",
             segment: "Màn hình thông dụng",
@@ -405,6 +377,7 @@ let generateProducts = [
         sale_off: 7,
         price: 47999000,
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm:  Card đồ họa VGA | ROG STRIX-RTX 3080 Ti-O12G-GAMING | NVIDIA® RTX 3080 Ti™ | Băng thông : PCI Express 4.0 x 16 | 19 Gbps | 12GB GDDR6X | 384-bit",
             species: "Card đồ họa VGA",
             producer: "Asus",
             model: "ROG STRIX-RTX 3080 Ti-O12G-GAMING",
@@ -420,11 +393,12 @@ let generateProducts = [
     {
         id: "52",
         image: "./assets/img/c_components/52_Asus TUF Ti-O12G-GAMING.png",
-        title: "Card màn hình Asus ROG STRIX-RTX 3080 Ti-O12G-GAMING",
+        title: "Card màn hình Asus TUF STRIX-RTX 3080 Ti-O12G-GAMING",
         price1: 47469000,
         sale_off: 1,
         price: 46999000,
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm:  Card đồ họa VGA | TUF STRIX-RTX 3080 Ti-O12G-GAMING | NVIDIA® RTX 3080 Ti™ | Băng thông : PCI Express 4.0 x 16 | 19 Gbps | 12GB GDDR6X | 384-bit",
             species: "Card đồ họa VGA",
             producer: "Asus",
             model: "TUF RTX 3080 Ti-O12G-GAMING",
@@ -445,10 +419,11 @@ let generateProducts = [
         sale_off: 12,
         price: 11109000,
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm:  Mainboard | ASUS PRIME TRX40-PRO | AMD Socket sTRX4 for 3rd Gen AMD Ryzen™ Threadripper™ Series Desktop Processors | Build in AMD TRX40 | 8 x DIMM, Max. 256GB, DDR4 3200/2933/2800/2666/2400/2133 MHz ECC and non-ECC, Un-buffered Memory | Supports AMD 2-Way CrossFireX Technology ",
             species: "Mainboard",
             producer: "Asus",
             model: "ASUS PRIME TRX40-PRO",
-            cpu: "AMD Socket sTRX4 for 3rd Gen AMD Ryzen™ Threadripper™ Series Desktop Processors Refer to www.asus.com for CPU support list",
+            cpu: "AMD Socket sTRX4 for 3rd Gen AMD Ryzen™ Threadripper™ Series Desktop Processors",
             chipset:  "Build in AMD TRX40",
             memory: "8 x DIMM, Max. 256GB, DDR4 3200/2933/2800/2666/2400/2133 MHz ECC and non-ECC, Un-buffered Memory",
             multiGPUsupport: "Supports AMD 2-Way CrossFireX Technology"
@@ -464,6 +439,7 @@ let generateProducts = [
         sale_off: 8,
         price: 2429000,
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm:  Mainboard |TUF B450-PRO GAMING  | AMD Socket sTRX4 for 3rd Gen AMD Ryzen™ Threadripper™ Series Desktop Processors | B450 | 2 x M.2 NVM.e, 6 x SATA 6Gb/s connectors | P/S2, DVI, HDMI, USB Type C, 6 USB Type A, LAN, Audio 3.5mm",
             species: "Mainboard",
             producer: "Asus",
             model: "TUF B450-PRO GAMING ",
@@ -483,6 +459,7 @@ let generateProducts = [
         sale_off: 23,
         price: 22999000,
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm:  Mainboard |TUF B450-PRO GAMING  | Intel | Z590 | 6x SATA 6Gb/s ports (From Z590 chipset), 4x M.2 slots (Key M) | 4x DDR4 memory slots, support up to 128GB, Supports 1R 2133/ 2666/ 2933 MHz for 10th Gen Intel® CPU (by JEDEC & POR), Supports 1R 2133/ 2666/ 2933/ 3200 MHz for 11th Gen Intel® CPU (by JEDEC & POR),...",
             species: "Mainboard",
             producer: "Asus",
             model: "TUF B450-PRO GAMING ",
@@ -502,10 +479,12 @@ let generateProducts = [
         sale_off: 8,
         price: 1919000,
         info: {
+            desc:"Nhà sản xuất ARESZE | Loại sản phầm:  Nguồn | EPS450ELA(85 Plus) | Intel | Kích thước: 50*85*160mm | 50*85*160mm | Công suất: 600W | > 17ms | CE/ FCC/ UL/ TUV/ C-Tick / GOST/BSMI/ CCC/ KCC",
             species: "Nguồn",
+            producer:"ARESZE",
             model: "EPS450ELA(85 Plus)",
             size: "50*85*160mm",
-            inputvoltage:  "103~264V (dải tự động)",
+            inputvoltage:  "50*85*160mm",
             wattage: "600W",
             retentiontime: "> 17ms",
             efficiency: ">80%",
@@ -522,6 +501,7 @@ let generateProducts = [
         sale_off: 17,
         price: 749000,         
         info: {
+            desc:"Nhà sản xuất Asus | Loại sản phầm: Ổ quang | DVD + R: 8X, DVD-R: 8X, DVD + RW: 8X, DVD-RW: 8X, DVD-ROM: 8X , DVD + R (DL): 8X, DVD-R (DL): 8X ,DVD-ROM (DL): 8X, DVD-RAM: 5x , CD-R: 24X, CD-RW: 24X ,CD-ROM: 24X, DVD Video Playback: 4X, VCD Phát lại: 10X | DVD + R: 8X, DVD-R: 8X, DVD + RW: 8X, DVD-RW: 6X, DVD + R (DL): 6X, DVD-R (DL): 6X, DVD-RAM: 5x, CD-R: 24X, CD-RW: 16X | USB 2.0 | PC/laptop | 157 x 142 x 21 cm (DxRxC) | Disc Encryption tăng gấp đôi sự bảo mật bằng mật khẩu điều khiển và chức năng ẩn tập tin. Thiết kế thẩm mỹ, công nghệ vượt trội ",
             species: "Ổ quang",
             producer: "ASUS",
             model: "EPS450ELA(85 Plus)",
@@ -543,6 +523,7 @@ let generateProducts = [
         sale_off: 19,
         price: 1409000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | Caviar Black 1TB | 1TB | SATA3 | 64MB cache | 7200prm | 3Gbps",
             species: "Ổ cứng",
             producer: "Western Digital",
             model: "Caviar Black 1TB",
@@ -563,6 +544,7 @@ let generateProducts = [
         sale_off: 22,
         price: 1409000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | WD10EFRX | 1TB | SATA3 | 64MB cache | 5400rpm | 6 Gb/s",
             species: "Ổ cứng",
             producer: "Western Digital",
             model: "WD10EFRX",
@@ -583,6 +565,7 @@ let generateProducts = [
         sale_off: 17,
         price: 1999000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | WD10EFRX | 2TB | SATA3 | 256MB cache | 5400rpm | 6 Gb/s",
             species: "Ổ cứng",
             producer: "Western Digital",
             model: "WD10EFRX",
@@ -603,6 +586,7 @@ let generateProducts = [
         sale_off: 23,
         price: 929000,
         info: {
+            desc:"Nhà sản xuất Seagate | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda | 1TB | SATA3 | 64MB cache | 7200rpm | 6 Gb/s",
             species: "Ổ cứng",
             producer: "Seagate",
             model: "Seagate Barracuda",
@@ -623,6 +607,7 @@ let generateProducts = [
         sale_off: 15,
         price: 2469000,
         info: {
+            desc:"Nhà sản xuất Seagate | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda | 4TB | SATA3 | 256MB cache | 5400rpm | 6 Gb/s",
             species: "Ổ cứng",
             producer: "Seagate",
             model: "Seagate Barracuda",
@@ -643,6 +628,8 @@ let generateProducts = [
         sale_off: 21,
         price: 559000,
         info: {
+            desc:"Nhà sản xuất FSP | Loại sản phẩm: Nguồn | AX400ATX - Active PFC | 100V-240V | 4-8A | 50-60Hz | 350W | ATX",
+            producer:"FSP",
             species: "Nguồn",
             model: "AX400ATX - Active PFC",
             type: "ATX",
@@ -664,7 +651,9 @@ let generateProducts = [
         sale_off: 10,
         price: 699000,
         info: {
+            desc:"Nhà sản xuất FSP | Loại sản phẩm: Nguồn | AX400ATX - Active PFC | 100V-240V | 4-8A | 50-60Hz | 350W | ATX",
             species: "Nguồn",
+            producer:"FSP",
             model: "HYN450",
             type: "ATX",
             PFC:  "Active PFC",
@@ -685,6 +674,8 @@ let generateProducts = [
         sale_off: 24,
         price: 899000,
         info: {
+            desc:"Nhà sản xuất FSP | Loại sản phẩm: Nguồn | HYN450 | 100V-240V | 5A | 200V-240V | 50-60Hz | 500W | ATX",
+            producer:"FSP",
             species: "Nguồn",
             model: "HYN450",
             type: "ATX",
@@ -706,6 +697,7 @@ let generateProducts = [
         sale_off: 6,
         price: 1519000,
         info: {
+            desc:"Nhà sản xuất FSP | Loại sản phẩm: Nguồn | Active PFC | 100V-240V | 5A | 200V-240V | 50-60Hz | 500W | ATX",
             species: "Nguồn",
             model: "HYN450",
             type: "ATX",
@@ -727,6 +719,7 @@ let generateProducts = [
         sale_off: 18,
         price: 1399000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda |2TB | SATA3 | 64MB cache | 5400rpm | 3 Gb/s",
             species: "Ổ cứng",
             producer: "Western Digital",
             capacity: "2TB",
@@ -746,6 +739,7 @@ let generateProducts = [
         sale_off: 8,
         price: 3299000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda |2TB | SATA3 | 64MB cache | 7200rpm | 3 Gb/s",
             species: "Ổ cứng",
             producer: "Western Digital ",
             capacity: "2TB",
@@ -765,6 +759,7 @@ let generateProducts = [
         sale_off: 11,
         price: 4899000,
         info: {
+            desc:"Nhà sản xuất Western Digital | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda |4TB | SATA3 | 64MB cache | 7200rpm | 3 Gb/s",
             species: "Ổ cứng",
             producer: "Western",
             model: "Black WD4005FZBX",
@@ -784,6 +779,7 @@ let generateProducts = [
         sale_off: 22,
         price: 1559000,
         info: {
+            desc:"Nhà sản xuất Seagate SkyHawk | Loại sản phẩm: Ổ cứng HDD | Seagate Barracuda |2TB | SATA3 | 64MB cache | 5900rpm | 6 Gb/s",
             species: "Ổ cứng",
             producer: "Seagate",
             model: "Seagate SkyHawk",
@@ -804,6 +800,7 @@ let generateProducts = [
         sale_off: 38,
         price: 499000,
         info: {
+            desc:"Nhà sản xuất Zidli | Loại sản phẩm: Tai nghe | LED : Có | Màu: Đen, Xám | Tai nghe có dây | Microphone: Có | Over-ear | USB",
             product: "Tai nghe",
             producer: "Zidli",
             color: "Đen, Xám",
@@ -824,6 +821,7 @@ let generateProducts = [
         sale_off: 28,
         price: 369000,
         info: {
+            desc:"Nhà sản xuất OEM | Loại sản phẩm: Webcam | High Resolution | Màu: Đen | 720P | Microphone: Có | USB",
             product: "Webcam",
             producer: "OEM",
             model: "High Resolution",
@@ -842,6 +840,7 @@ let generateProducts = [
         sale_off: 15,
         price: 769000,
         info: {
+            desc:"Nhà sản xuất SONY | Loại sản phẩm: Tai nghe | LED : Có | Màu: Đen, Xám | IN-EAR Xtra Bass Tai nghe MDR-XB55AP(Xanh lá) | Microphone: Có | Over-ear | Jack 3.5mm",
             product: "Tai nghe",
             producer: "SONY",
             model: "IN-EAR Xtra Bass Tai nghe MDR-XB55AP(Xanh lá)",
@@ -859,6 +858,7 @@ let generateProducts = [
         sale_off: 16,
         price: 4499000,
         info: {
+            desc:"Nhà sản xuất Corsair | Loại sản phẩm: Tai nghe | Virtuoso Wireless RGB White (CA-9011186-AP) | Màu: Trắng | Tai nghe có dây | Microphone: Có | Over-ear | USB Wireless",
             product: "Tai nghe",
             producer: "Corsair",
             model: "Virtuoso Wireless RGB White (CA-9011186-AP)",
@@ -878,6 +878,7 @@ let generateProducts = [
         sale_off: 8,
         price: 27869000,
         info: {
+            desc:"Nhà sản xuất Logitech | Loại sản phẩm: Webcam | Meetup | Màu: Đen | Gọi điện video 4K Ultra HD (lên tới 3840 x 2160 pixel ở tốc độ 30 khung hình/giây với dây USB 3.0 option không đi kèm) | Microphone: Phạm vi thu: 2,4 m /8, phạm vi thu với Mic kéo dài: 4,2 m /14, độ nhạy: -27dB | Thu phóng HD 5 lần Phóng to vào cận cảnh vật thể và nội dung trên bảng trắng với độ rõ nét và chi tiết vượt trội",
             product: "Webcam",
             producer: "Logitech",
             model: "Meetup",
@@ -897,6 +898,7 @@ let generateProducts = [
         sale_off: 32,
         price: 209000,
         info: {
+            desc:"Nhà sản xuất Logitech | Loại sản phẩm: Webcam | Logitech H111 | Màu: Đen | 32 Ohm | Microphone: Có | Jack 3.5mm ( 1 jack đơn ) | 20 Hz - 20 KHz",
             product: "Tai nghe",
             producer: "Logitech",
             model: "Logitech H111",
@@ -917,6 +919,7 @@ let generateProducts = [
         sale_off: 23,
         price: 849000,
         info: {
+            desc:"Nhà sản xuất Logitech | Loại sản phẩm: Webcam | Webcam C310 | Màu: Đen | HD (1280 x 720 pixel) với hệ thống được khuyến nghị | Microphone: Micrô tích hợp có tính năng giảm tiếng ồn | Lên tới 5 megapixel (phần mềm nâng cao)",
             product: "Webcam",
             producer: "Logitech",
             model: "Webcam C310",
@@ -935,6 +938,8 @@ let generateProducts = [
         sale_off: 23,
         price: 849000,
         info: {
+            desc:"Nhà sản xuất Logitech | Loại sản phẩm: Webcam | Webcam C310 | Màu: Đen | HD (1280 x 720 pixel) với hệ thống được khuyến nghị | Microphone: Micrô tích hợp có tính năng giảm tiếng ồn | Lên tới 5 megapixel (phần mềm nâng cao)",
+            producer: "Logitech",
             diaphragm: "Thiết kế theo ý muốn, 50mm với nam châm neodymium",
             type: "Đeo đầu, Chụp tai kín",
             frequencyrange: "13Hz-27.000Hz",
@@ -953,6 +958,8 @@ let generateProducts = [
         sale_off: 23,
         price: 4349000,
         info: {
+            desc:"Nhà sản xuất AVERMEDIA | Loại sản phẩm: Thiết bị thu hình | Live Gamer Portable 2 PLUS - GC513 | Màu: Đen | HDMI 2.0 / 4 Pole 3.5mm Jack ( Audio input from controller, Mic pass-through)",
+            producer: "AVERMEDIA",
             product: "Thiết bị thu hình",
             model: "Live Gamer Portable 2 PLUS - GC513",
             communicate: "USB 2.0 (USB Micro)",
@@ -972,6 +979,8 @@ let generateProducts = [
         sale_off: 8,
         price: 1299000,
         info: {
+            desc:"Nhà sản xuất CORSAIR | Loại sản phẩm: Tai nghe | HS50 PRO | Màu: carbon | Headphone: 32k Ohms @ 1 kHzMicrophone: 2.0k Ohms | Headphone:20-20.000 Hz, Microphone: 100-100.000 Hz | Jack 3.5 mm | 20 Hz - 20 KHz",
+            producer: "CORSAIR",
             product: "Tai nghe HS50",
             color: "carbon",
             impedance: "Headphone: 32k Ohms @ 1 kHzMicrophone: 2.0k Ohms",
@@ -990,6 +999,7 @@ let generateProducts = [
         sale_off: 4,
         price: 26999000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: UX363EA-HP532T | Cpu: Intel Core i5 1135G7 | Ram: 8GB | SSD : 512GB | VGA : Onboard | Màn hình: 13.3 FHD Cảm ứng | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Asus",
             species: "UX363EA-HP532T",
             cpu: "Intel Core i5 1135G7",
@@ -1011,6 +1021,7 @@ let generateProducts = [
         sale_off: 4,
         price: 25999000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: M3500QC-L1105T | Cpu: AMD R5 5600H | Ram: 8GB | SSD : 512GB | VGA : NVIDIA RTX 3050 MaxQ 4GB | Màn hình: 15.6 Oled FHD | Hệ điều hành: Win 10 | Màu: Xanh đen",
             producer: "Asus",
             species: "M3500QC-L1105T",
             cpu: "AMD R5 5600H",
@@ -1032,6 +1043,7 @@ let generateProducts = [
         sale_off: 8,
         price: 55999000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: UX363EA-HP532T | Cpu: Intel Core i5 1135G7 | Ram: 8GB | SSD : 512GB | VGA : Onboard | Màn hình: 13.3 FHD Cảm ứng | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Asus",
             species: "UX363EA-HP532T",
             cpu: "Intel Core i5 1135G7",
@@ -1053,6 +1065,7 @@ let generateProducts = [
         sale_off: 2,
         price: 39299000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: Predator Helios 300 PH315-54-75YD (2021) | Cpu: Intel Core i5 1135G7 | Ram: 8GB | SSD : 512GB | VGA : Nvidia RTX3060 6G | Màn hình:  15.6 inch QHD 165Hz | Hệ điều hành: Win 10 | Màu: Đen",
             producer: "Asus",
             species: "Predator Helios 300 PH315-54-75YD (2021)",
             cpu: " Intel Core i7 11800H",
@@ -1074,6 +1087,7 @@ let generateProducts = [
         sale_off: 5,
         price: 28999000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: Nitro 5 AN515-57-720A (2021) | Cpu: Intel core i7 11800H | Ram: 8GB | SSD : 512GB | VGA : RTX3050Ti 4G | Màn hình:  15.6 inch FHD 144Hz | Hệ điều hành: Win 11 mới nhất | Màu: Đen",
             producer: "Asus",
             species: "Nitro 5 AN515-57-720A (2021)",
             cpu: "Intel core i7 11800H",
@@ -1090,12 +1104,13 @@ let generateProducts = [
     {
         id: "156",
         image: "./assets/img/laptop/156_Levono Legion 7 16ACHG6.png",
-        title: "Laptop Lenovo Legion 7 16ACHG6 (82N60039VN) (R9 5900HX/32GB RAM/1TB SSD/16 QWXGA 165hz/RTX3080 16G/Win/Xám)",
+        title: "Laptop Lenovo Legion 7 16ACHG6 (82N60039VN) (R9 5900HX/32GB RAM/1TB SSD/16 QWXGA 165hz/RTX3080 16G/Win 10/Xám)",
         price1: 80799000,
         sale_off: 2,
         price: 79499000,
         info: {
-            producer: "Asus",
+            desc:"Nhà sản xuất: Lenovo | Tên: Legion 7 16ACHG6 | Cpu: R9 5900HX | Ram: 32GB | SSD : 1TB | VGA : RTX3080 16G | Màn hình:  15.6 inch FHD 144Hz | Hệ điều hành: Win 10 | Màu: Xám",
+            producer: "Lenovo",
             species: "UX363EA-HP532T",
             cpu: "Intel Core i5 1135G7",
             ram:  "8GB",
@@ -1116,13 +1131,14 @@ let generateProducts = [
         sale_off: 2,
         price: 25499000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Legion 7 16ACHG6 | Cpu: Intel i5 11400H | Ram: 8GB | SSD : 512TB | VGA : NVIDIA RTX 3050 4GB | Màn hình:  15.6 inch FHD 144Hz | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Asus",
             species: "UX363EA-HP532T",
             cpu: "AMD R9 5900HX",
             ram:  "8GB",
             diskdrive: "512GB SSD",
             vga: "NVIDIA RTX 3050 4GB",
-            computerscreen: "15.6 FHD 144hzg",
+            computerscreen: "15.6 FHD 144hz",
             os: "Windown 10",
             color: "Xám"
         },
@@ -1137,6 +1153,7 @@ let generateProducts = [
         sale_off: 4,
         price: 49999000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Legion 7 16ACHG6 | Cpu: Intel i5 11400H | Ram: 8GB | SSD : 512TB | VGA : NVIDIA RTX 3050 4GB | Màn hình:  15.6 inch FHD 144Hz | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Asus",
             species: "Predator Triton 300 PT315-53-71DJ",
             cpu: "Intel core i7 11800H",
@@ -1158,6 +1175,7 @@ let generateProducts = [
         sale_off: 5,
         price: 25989000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Air 13_2020 NEW | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Air 13_2020 NEW",
             cpu: "Apple M1",
@@ -1179,6 +1197,7 @@ let generateProducts = [
         sale_off: 7,
         price: 32989000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Air 13_2020 NEW | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Pro 13_2020 NEW",
             cpu: "Apple M1",
@@ -1200,6 +1219,7 @@ let generateProducts = [
         sale_off: 5,
         price: 31509000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Air 13_2020 NEW | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Air 13-2020 NEW",
             cpu: "Apple M1",
@@ -1221,6 +1241,7 @@ let generateProducts = [
         sale_off: 3,
         price: 39989000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Air 13_2020 NEW | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Air 13_2020 NEWUX363EA-HP532T",
             cpu: "Apple M1Intel Core i5 1135G7",
@@ -1242,6 +1263,7 @@ let generateProducts = [
         sale_off: 3,
         price: 44429000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Air 13_2020 NEW | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Pro 13",
             cpu: "Apple M1",
@@ -1263,6 +1285,7 @@ let generateProducts = [
         sale_off: 2,
         price: 54529000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Pro 13 | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Pro 13",
             cpu: "Apple M1",
@@ -1284,6 +1307,7 @@ let generateProducts = [
         sale_off: 3,
         price: 54529000,
         info: {
+            
             producer: "Apple",
             species: "Macbook Pro 13 - 2020",
             cpu: " Intel Core i5 2.0Ghz",
@@ -1305,6 +1329,7 @@ let generateProducts = [
         sale_off: 3,
         price: 32309000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Pro 13 | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Air 13_2020 NEW",
             cpu: "Apple M1",
@@ -1326,6 +1351,7 @@ let generateProducts = [
         sale_off: 3,
         price: 32309000,
         info: {
+            desc:"Nhà sản xuất: Appleo | Tên: Macbook Pro 13 | Cpu: Apple M1 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  Apple M1 | Hệ điều hành: Win 10 | Màu: Xám",
             producer: "Apple",
             species: "Macbook Air 13_2020 NEW",
             cpu: "Apple M1",
@@ -1347,6 +1373,7 @@ let generateProducts = [
         sale_off: 3,
         price: 22999000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Yoga Slim 7 14ITL05 | Cpu: Intel Core i5 1135G7 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             species: "Yoga Slim 7 14ITL05",
             cpu: "Intel Core i5 1135G7",
@@ -1368,6 +1395,7 @@ let generateProducts = [
         sale_off: 2,
         price: 26499000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Yoga Slim 7 14ITL05 | Cpu: Intel Core i5 1135G7 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             species: "Yoga Slim 7 14ITL05",
             cpu: "Intel Core i7 1165G7",
@@ -1389,6 +1417,7 @@ let generateProducts = [
         sale_off: 2,
         price: 25999000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Thinkbook 13s Gen 2 | Cpu: Intel Core i7 1165G7 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             species: "Thinkbook 13s Gen 2",
             cpu: "Intel Core i7 1165G7",
@@ -1410,6 +1439,7 @@ let generateProducts = [
         sale_off: 12,
         price: 8499000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: Thinkbook 13s Gen 2 | Cpu: Intel Core i7 1165G7 | Ram: 8GB | SSD : 512TB | VGA : Onboard | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             generic: "IdeaCenter 510-15ICB",
             cpu: "Core i3-8100",
@@ -1429,6 +1459,7 @@ let generateProducts = [
         sale_off: 12,
         price: 12189000,
         info: {
+            desc:"Nhà sản xuất: Dell | Tên: Vostro 3681 | Cpu: Core i5-10400 | Ram: 4GB DDR4 2666Mhz | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Dell",
             generic: "Vostro 3681",
             cpu: "Core i5-10400",
@@ -1448,6 +1479,7 @@ let generateProducts = [
         sale_off: 3,
         price: 8649000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: V50s 07IMB | Cpu: Core i5-10400 | Ram: 4GB DDR4 2666Mhz | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             generic: "V50s 07IMB",
             cpu: "Intel® Core™ i3-10100",
@@ -1467,6 +1499,7 @@ let generateProducts = [
         sale_off: 2,
         price: 13899000,
         info: {
+            desc:"Nhà sản xuất: Lenovo | Tên: V50s 07IMB | Cpu: Core i5-10400 | Ram: 4GB DDR4 2666Mhz | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Lenovo",
             generic: "IdeaCenter 510-15ICB",
             cpu: "Core i5-10500",
@@ -1486,6 +1519,7 @@ let generateProducts = [
         sale_off: 3,
         price: 9099000,
         info: {
+            desc:"Nhà sản xuất: HP | Tên: V50s 07IMB | Cpu: Core i5-10400 | Ram: 4GB DDR4 2666Mhz | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HP",
             generic: "280 Pro G5",
             cpu: "Core i3-10100",
@@ -1505,6 +1539,7 @@ let generateProducts = [
         sale_off: 2,
         price: 16849000,
         info: {
+            desc:"Nhà sản xuất: HP | Tên: V50s 07IMB | Cpu: Core i5-10400 | Ram: 4GB DDR4 2666Mhz | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HP",
             generic: "Prodesk 400 G7 MT",
             cpu: "Core i7-10700",
@@ -1524,6 +1559,7 @@ let generateProducts = [
         sale_off: 1,
         price: 9599000,
         info: {
+            desc:"Nhà sản xuất: Dell | Tên: V50s 07IMB | Cpu: Optiplex 3080 | Ram: 4GB DDR4 (2 slot) | HDD : 1TB | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Dell",
             generic: "Optiplex 3080",
             cpu: "Core i3-10100",
@@ -1542,6 +1578,7 @@ let generateProducts = [
         sale_off: 1,
         price: 22799000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Asus",
             generic: "E5402WH",
             cpu: "Intel Core i5-11500B",
@@ -1560,6 +1597,7 @@ let generateProducts = [
         sale_off: 10,
         price: 8999000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Asus",
             generic: "D500SC",
             cpu: "Core™ i3-10105",
@@ -1579,6 +1617,7 @@ let generateProducts = [
         sale_off: 3,
         price: 17449000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Asus",
             generic: "ALL IN ONE V241E",
             cpu: "Intel Core i3-1115G4",
@@ -1597,6 +1636,7 @@ let generateProducts = [
         sale_off: 25,
         price: 4799000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HACOM",
             generic: "BUSINESS H11",
             cpu: "AMD Athlon 3000G",
@@ -1616,6 +1656,7 @@ let generateProducts = [
         sale_off: 2,
         price: 17779000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HP",
             generic: "Prodesk 400 G7 MT",
             cpu: "Core i7-10700",
@@ -1635,6 +1676,7 @@ let generateProducts = [
         sale_off: 5,
         price: 9489000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "DELL",
             generic: "IdeaCenter 510-15ICB",
             cpu: "Core i3-10100",
@@ -1654,6 +1696,7 @@ let generateProducts = [
         sale_off: 6,
         price: 11869000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "DELL",
             generic: "Vostro 3888",
             cpu: "Core i5-10400",
@@ -1673,6 +1716,7 @@ let generateProducts = [
         sale_off: 7,
         price: 17379000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HP",
             generic: "All-in-One 24-df0039d",
             cpu: "Intel® Core™ i3-10100T",
@@ -1710,6 +1754,7 @@ let generateProducts = [
         sale_off: 10,
         price: 9299000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HP",
             generic: "Pavilion TP01-1002d",
             cpu: "Core i3-10105",
@@ -1729,6 +1774,7 @@ let generateProducts = [
         sale_off: 18,
         price: 7399000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "Asus",
             generic: "ALL IN ONE V241E",
             cpu: "Intel Core i5-1135G7",
@@ -1747,6 +1793,7 @@ let generateProducts = [
         sale_off: 18,
         price: 7399000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "HACOM",
             generic: "HACOM BUSINESS P15",
             cpu: "Intel Core i3-10105",
@@ -1765,6 +1812,7 @@ let generateProducts = [
         sale_off: 6,
         price: 18499000,
         info: {
+            desc:"Nhà sản xuất: Asus | Tên: E5402WH | Cpu: Intel Core i5-11500B | Ram: 4GB DDR4 (2 slot) | 512Gb SSD | VGA : VGA onboard, Intel HD Graphics | Màn hình:  14 inch FHD | Hệ điều hành: Win 10 | Màu: Xanh rêu",
             producer: "DELL",
             generic: " Vostro 3681",
             cpu: " Core i7-10700",

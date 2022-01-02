@@ -7,9 +7,7 @@ function renderProduct([product]) {
                     <img src="${product.image}" alt="">
                 </div>
                 <div id="product-detail">
-                    <ul>
-                       <li>${product.info}</li>
-                    </ul>
+                    ${product.info.desc}
                 </div>
             </div>
             <div class="product-main">
@@ -90,5 +88,5 @@ function findProductByProductId() {
 }
 window.onload = () => {
     renderProduct(findProductByProductId());
-    console.log(renderInfo())
 }
+

@@ -100,7 +100,7 @@
                     </ul>
                   </div>
               </div>
-               <div id="Navbar">           
+              <div id="Navbar">           
                 <a href="./index.html"><img src="./assets/img/logo/Logo_Mystery_Light.svg" alt=""class="Nav_logo"></a>
                 <div class="dropdown">
                     <i class="fas fa-bars"></i>
@@ -317,7 +317,7 @@
                   <div class="new-price-seller">6.500.000 &#8363;</div>
                 </div>
               </div>
-              <a href="./assets/html/Passersby/laptopPassersby.html"><button class="btn btn-seller">Mua hàng ngay</button></a>
+              <a href="#" onclick="viewAllProduct('Monitor')"><button class="btn btn-seller">Mua hàng ngay</button></a>
             </div>
             <div class="seller-item">
               <img src="./assets/img/laptop/151_Asus UX363EA-HP532T.png" alt="">
@@ -331,7 +331,7 @@
                   <div class="new-price-seller">26.999.000 &#8363;</div>
                 </div>
               </div>
-              <a href="./assets/html/Passersby//laptopPassersby.html"><button class="btn btn-seller">Mua hàng ngay</button></a>
+              <a href="#" onclick="viewAllProduct('laptop')"><button class="btn btn-seller">Mua hàng ngay</button></a>
             </div>
             <div class="seller-item">
               <img src="./assets/img/c_components/51_ Asus ROG Ti-O12G-GAMING.png" alt="">
@@ -345,7 +345,7 @@
                   <div class="new-price-seller">47.999.000 &#8363;</div>
                 </div>
               </div>
-              <a href="./assets/html/Passersby/componentsPassersby.html"><button class="btn btn-seller">Mua hàng ngay</button></a>
+              <a href="#" onclick="viewAllProduct('components')" ><button class="btn btn-seller">Mua hàng ngay</button></a>
             </div>
             <div class="seller-item">
               <img src="./assets/img/PC/201_Lenovo-IdeaCentre-510-15ICB.png" alt="">
@@ -359,7 +359,7 @@
                   <div class="new-price-seller ">8.499.000 &#8363;</div>
                 </div>
               </div>
-              <a href="./assets/html/Passersby/pcPassersby.html"><button class="btn btn-seller">Mua hàng ngay</button></a>
+              <a href="#" onclick="viewAllProduct('PC')"><button class="btn btn-seller">Mua hàng ngay</button></a>
             </div>
             <div class="seller-item">
               <img src="./assets/img/spare_parts/101_Zidli ZH20 7.1.png" alt="">
@@ -373,7 +373,7 @@
                   <div class="new-price-seller">499.000 &#8363;</div>
                 </div>
               </div>
-              <a href="./assets/html/Passersby/sparePartsPassersby.html"><button class="btn btn-seller">Mua hàng ngay</button></a>
+              <a href="#" onclick="viewAllProduct('Spare-part')" ><button class="btn btn-seller">Mua hàng ngay</button></a>
             </div>
         </div>
       </div>
@@ -414,7 +414,7 @@
       <div class="product-index">
         <div class="container">
           <div class="product__header">
-            <h2 class="heading ">Card đồ họa</h2>
+            <h2 class="heading ">Phụ kiện & thiết bị ngoại vi</h2>
             <div class="btn__list">
               <button class="btn" id="view-all-btn"  onclick="viewAllProduct('Spare-part')">Xem tất cả sản phẩm</button>
             </div>
@@ -428,7 +428,7 @@
       <div class="product-index">
         <div class="container">
           <div class="product__header">
-            <h2 class="heading ">Vi xử lý</h2>
+            <h2 class="heading ">Linh kiện máy tính</h2>
             <div class="btn__list">
               <button class="btn" id="view-all-btn"  onclick="viewAllProduct('components')">Xem tất cả sản phẩm</button>
             </div>
@@ -589,6 +589,7 @@
   <script src="./assets/js/nav-onscroll.js"></script>
   <script src="./assets/js/search.js"></script>
   <script src="./assets/js/renderProduct.js"></script>
+  <!-- <script src="./assets/js/load.js"></script> -->
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {

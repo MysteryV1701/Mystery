@@ -2,7 +2,6 @@ const login = document.querySelector(".login-btn");
 const userName = document.querySelector(".username-login");
 const password = document.querySelector(".password");
 const textMessage = document.querySelector(".text-message");
-
 const handleLogin = () => {
     console.log(userName.value, password.value);
     let userList = JSON.parse(localStorage.getItem('userList'));
@@ -24,8 +23,6 @@ const handleLogin = () => {
         }
     }
 }
-
-
 login.onclick = () => {
     handleLogin();
 }
