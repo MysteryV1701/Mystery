@@ -1874,3 +1874,11 @@ function generateUniqueId() {
     let id = Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
     return id;
 }
+window.onload = () => {
+    if (!localStorage.getItem('products')) {
+       generateProduct();
+    }
+    if (!localStorage.getItem('userList')) {
+       generateUser();
+    }
+ }
